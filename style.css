@@ -50,7 +50,7 @@ ul {
     position: relative; 
     font-size: 1.5em;
     list-style-type: none;
-    margin: 0 ;
+    margin: 0;
     padding: 0 20vw;
     overflow: hidden;
     background-color: #333;
@@ -183,4 +183,7 @@ p.slide {
     padding: 0;
     overflow: hidden;
     transition-duration: 2s;
+    position: absolute;
+    bottom: 100%;
+    opacity: 0;
 }
