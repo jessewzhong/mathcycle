@@ -178,3 +178,9 @@ hr {
     opacity: 0;
     transition-duration: 2s;
 }
+
+p.slide {
+    padding: 0;
+    overflow: hidden;
+    transition-duration: 2s;
+}
