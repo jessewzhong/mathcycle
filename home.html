@@ -265,66 +265,8 @@
             </div>
         </div>
         <script src="slidebar.js"></script>
-        <script>
-            function display(elem) {
-                var list = document.getElementsByClassName("disp");
-                var newList = Array.prototype.slice.call(list);
-                var temp = newList.indexOf(elem);
-                var nextList = document.getElementsByClassName("hide");
-                if (nextList[temp].style.opacity === "0" || nextList[temp].style.opacity === "") {
-                    nextList[temp].style.opacity = "1";
-                }
-                else {
-                    nextList[temp].style.opacity = "0";
-                }
-            }
-        </script>
-        <script>
-            var heights = [];
-            disable(); 
-
-            function disable() {
-                var list = document.getElementsByClassName("slider");
-                for (var i = 0; i < list.length; i++) {
-                    list[i].style.pointerEvents = "none";
-                }
-            }
-
-            function enable() {
-                var list = document.getElementsByClassName("slider");
-                for (var i = 0; i < list.length; i++) {
-                    list[i].style.pointerEvents = "auto";
-                }
-            }
-
-            setTimeout(enable, 2000);
-
-            function getHeight() {
-                var height = document.getElementsByClassName("slide");
-                for (var i = 0; i < height.length; i++) {
-                    console.log(height[i].clientHeight)
-                    heights.push(height[i].clientHeight)
-                    height[i].style.height = "0px";
-                    height[i].style.position = "static";
-                    height[i].style.opacity = "1";
-                }
-            }
-
-            setTimeout(getHeight, 2000);
-
-            function slide(elem) {
-                var list = document.getElementsByClassName("slider");
-                var newList = Array.prototype.slice.call(list);
-                var temp = newList.indexOf(elem);
-                var nextList = document.getElementsByClassName("slide");
-                if (nextList[temp].clientHeight === 0) {
-                    nextList[temp].style.height= heights[temp] + "px";
-                }
-                else {
-                    nextList[temp].style.height= "0px";
-                }
-            }
-        </script>
+        <script src="display.js"></script>
+        <script src="slidedown.js"></script>
     </body>
 </html>
 
