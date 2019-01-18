@@ -179,6 +179,13 @@ hr {
     transform: translate(-50%, -50%);
 }
 
+.disp {
+    display: inline-block; 
+    color: black; 
+    padding: 0; 
+    cursor: pointer
+}
+
 .hide {
     opacity: 0;
     transition-duration: 2s;
