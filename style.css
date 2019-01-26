@@ -187,9 +187,11 @@ hr {
 }
 
 .redback {
+    /*
     background-image: url(./pictures/redgeometric.jpg);
     background-position: bottom;
     background-size: cover;
+    */
     text-align: center;
 }
 
