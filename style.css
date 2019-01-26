@@ -200,7 +200,7 @@ hr {
 
 .hide {
     opacity: 0;
-    transition-duration: 2s;
+    transition-duration: 1.5s;
 }
 
 p.slide {
