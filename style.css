@@ -225,3 +225,7 @@ p.slide {
     border-left-style: solid; 
     border-left-width: 1px
 }
+
+.faded {
+    opacity: 0.2;
+}
