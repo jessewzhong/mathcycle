@@ -186,6 +186,13 @@ hr {
     cursor: pointer
 }
 
+.redback {
+    background-image: url(./pictures/redgeometric.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+}
+
 .hide {
     opacity: 0;
     transition-duration: 2s;
@@ -194,7 +201,7 @@ hr {
 p.slide {
     padding: 0;
     overflow: hidden;
-    transition-duration: 2s;
+    transition-duration: 1s;
     position: absolute;
     bottom: 100%;
     opacity: 0;
