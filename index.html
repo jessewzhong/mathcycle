@@ -439,21 +439,8 @@
         <script src="slidebar.js"></script>
         <script src="display.js"></script>
         <script src="slidedown.js"></script>
-        <script>
-            var list = document.getElementsByClassName("grid2");
-            for (var i = 0; i < list.length; i++){
-                var temp = list[i].getBoundingClientRect().width;
-                temp = 0.92 * temp;
-                list[i].style.height = temp + "px";
-            }
-        </script>
-        <script>
-            var list = document.getElementsByClassName("contests");
-            for (var i = 0; i < list.length; i++){
-                var temp = list[i].getElementsByClassName("regular");
-                temp[temp.length - 1].style.paddingBottom = "0";
-            }
-        </script>
+        <script src="samewidth.js"></script>
+        <script src="contestsadjustpadding.js"></script>
     </body>
 </html>
 
