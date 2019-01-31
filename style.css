@@ -242,7 +242,7 @@ label {
 }
 input {
     margin-top: 0.25em;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     width: 100%;
     box-sizing: border-box;
     border-width: 1px;
@@ -257,16 +257,23 @@ input:focus {
 }
 
 #login, #createlogin {
-    display: none; 
+    opacity: 0;
+    visibility: hidden; 
     position: fixed; 
     padding: 1%; 
     border: red solid 1px; 
     background-color: white; 
     outline: 9999px solid rgba(0,0,0,0.5);
+    transition: opacity 1s;
 }
 
 #account {
     color: red; 
     font-weight: bold; 
     cursor: pointer;
+}
+
+.under:hover {
+    border-left: solid red 1px;
+    border-right: solid red 1px;
 }

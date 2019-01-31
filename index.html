@@ -449,9 +449,15 @@
                 <label class="clicky" for="psw">Password</label>
                 <input class="clicky" type="password" placeholder="Enter Password" name="psw" required>
 
-                <p class="clicky regular" style="text-align: center">Don't have an account yet?</p>
+                <div class="clicky" style="text-align: center">
+                    <span class="under" style="cursor: pointer; color: red; font-weight: bold;"> &nbsp; submit &nbsp; </span>
+                </div>
+                <p class="clicky regular" style="text-align: center; padding-top: 1em; padding-bottom: 0.5em">Don't have an account yet?</p>
                 <div class="clicky" style="text-align: center">
                     <span id="account" onclick="loadCreate()">click here</span>
+                </div>
+                <div class="clicky" style="text-align: center; padding-top: 1em">
+                    <span style="cursor: pointer; color: red; font-weight: bold;">close</span>
                 </div>
 
             </form>
@@ -468,7 +474,13 @@
                 <input class="clicky" id="focuss" type="text" placeholder="Enter Email" name="email" required autofocus><br>
             
                 <label class="clicky" for="psw">Password</label>
-                <input class="clicky" type="password" placeholder="Enter Password" name="psw" required>
+                <input class="clicky" type="password" placeholder="Enter Password" name="psw" required><br>
+
+                <label class="clicky" for="pswc">Confirm</label>
+                <input class="clicky" type="password" placeholder="Confirm Password" name="pswc" required>
+                <div class="clicky" style="text-align: center; padding-bottom: 1em">
+                        <span class="under" style="cursor: pointer; color: red; font-weight: bold;"> &nbsp; submit &nbsp; </span>
+                </div>
                 <div class="clicky" style="text-align: center">
                     <span style="cursor: pointer; color: red; font-weight: bold;">close</span>
                 </div>
@@ -483,18 +495,27 @@
             function popUp() {
                 toggleClick();
                 var elem = document.getElementById("login");
-                elem.style.display = "block";
+                elem.style.visibility = "visible";
+                aye(elem);
                 banana();
                 var item = document.getElementById("focus");
                 item.focus();
                 document.addEventListener("keydown", press);
-                setTimeout(() => document.body.addEventListener("click", toggle), 1);
+                setTimeout(() => document.body.addEventListener("click", toggle), 10);
             }
 
             function press(e) {
                 if (e.key === "Escape") {
                     toggle();
                 }
+            }
+
+            function aye(e) {
+                e.style.opacity = "1";
+            }
+
+            function bye(e) {
+                e.style.opacity = "0";
             }
 
             function toggle() {
@@ -505,7 +526,8 @@
                     }
                     else if (e.target.id === "account") {
                         var elem = document.getElementById("login");
-                        elem.style.display = "none";
+                        elem.style.visibility = "hidden";
+                        aye(elem);
                         toggleClick();
                         document.body.removeEventListener("click", toggle);
                         document.removeEventListener("keydown", press);
@@ -516,11 +538,13 @@
                     }
                 }
                 var elem = document.getElementById("login");
-                elem.style.display = "none";
+                elem.style.visibility = "hidden";
+                bye(elem);
                 elem = document.getElementById("loginA");
                 elem.reset();
                 elem = document.getElementById("createlogin");
-                elem.style.display = "none";
+                elem.style.visibility = "hidden";
+                bye(elem);
                 elem = document.getElementById("createloginA");
                 elem.reset();
                 toggleClick();
@@ -542,12 +566,13 @@
             function loadCreate() {
                 toggleClick();
                 var elem = document.getElementById("createlogin");
-                elem.style.display = "block";
+                elem.style.visibility = "visible";
+                aye(elem);
                 apple();
                 var item = document.getElementById("focuss");
                 item.focus();
-                setTimeout(() => document.addEventListener("keydown", press), 1);
-                setTimeout(() => document.body.addEventListener("click", toggle), 1);
+                setTimeout(() => document.addEventListener("keydown", press), 10);
+                setTimeout(() => document.body.addEventListener("click", toggle), 10);
             }
         </script>
         <script>
