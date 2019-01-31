@@ -256,11 +256,19 @@ input:focus {
     border-width: 1px;
 }
 
-#login {
+#login, #createlogin {
     display: none; 
     position: fixed; 
     padding: 1%; 
     border: red solid 1px; 
     background-color: white; 
     outline: 9999px solid rgba(0,0,0,0.5);
+}
+
+#account {
+    color: red; 
+    font-weight: bold; 
+    text-align: center; 
+    margin: 0 auto;
+    cursor: pointer;
 }
