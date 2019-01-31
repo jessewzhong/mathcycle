@@ -20,7 +20,7 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li style="float: right" onclick="popUp()"><a style="cursor: pointer">Login</a></li>
+                <li id="logbutton" style="float: right" onclick="popUp()"><a style="cursor: pointer">Login</a></li>
             </ul>
             </div>
         </div>
@@ -436,18 +436,18 @@
                 </div>
             </div>
         </div>
-        <div id="login" class="center">
-            <form>
-                <p class="regular">
-                    <b>math</b><span style="color: red">cycle</span>
+        <div id="login" class="center clicky">
+            <form class="clicky">
+                <p class="regular clicky">
+                    <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
-                <div class="large" style="text-align: center">Login</div>
+                <div class="large clicky" style="text-align: center">Login</div>
         
-                <label for="email">Email</label>      
-                <input type="text" placeholder="Enter Email" name="email" required autofocus><br>
+                <label class="clicky" for="email">Email</label>      
+                <input class="clicky" id="focus" type="text" placeholder="Enter Email" name="email" required autofocus><br>
             
-                <label for="psw">Password</label><br>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <label class="clicky" for="psw">Password</label><br>
+                <input class="clicky" type="password" placeholder="Enter Password" name="psw" required>
             </form>
 
         </div>
@@ -458,16 +458,46 @@
         <script src="contestsadjustpadding.js"></script>
         <script>
             function popUp() {
+                toggleClick();
                 var elem = document.getElementById("login");
                 elem.style.display = "block";
+                var item = document.getElementById("focus");
+                item.focus();
                 document.addEventListener("keydown", press);
+                setTimeout(() => document.body.addEventListener("click", toggle), 10);
             }
 
             function press(e) {
                 if (e.key === "Escape") {
-                    var elem = document.getElementById("login");
-                    elem.style.display = "none";
-                    document.removeEventListener("keydown")
+                    toggle();
+                }
+            }
+
+            function toggle() {
+                if (arguments.length > 0) {
+                    console.log("hi");
+                    e = arguments[0];
+                    if (e.target.classList.contains("clicky")) {
+                        return;
+                    }
+                    else {
+                        //nothing
+                    }
+                }
+                var elem = document.getElementById("login");
+                elem.style.display = "none";
+                toggleClick();
+                document.body.removeEventListener("click", toggle);
+                document.removeEventListener("keydown", press);
+            }
+
+            function toggleClick() {
+                var elem = document.getElementById("logbutton");
+                if (elem.style.pointerEvents ==="auto" || elem.style.pointerEvents === "") {
+                    elem.style.pointerEvents = "none";
+                }
+                else {
+                    elem.style.pointerEvents = "auto";
                 }
             }
 
