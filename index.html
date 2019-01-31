@@ -437,13 +437,13 @@
             </div>
         </div>
         <div id="login" class="center clicky">
-            <form class="clicky">
+            <form class="clicky" id="loginA">
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
                 <div class="large clicky" style="text-align: center">Login</div>
         
-                <label class="clicky" for="email">Email</label>      
+                <label class="clicky" for="email">Email</label>
                 <input class="clicky" id="focus" type="text" placeholder="Enter Email" name="email" required autofocus><br>
             
                 <label class="clicky" for="psw">Password</label>
@@ -458,7 +458,7 @@
         </div>
 
         <div id="createlogin" class="center clicky">
-            <form class="clicky">
+            <form class="clicky" id="createloginA">
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
@@ -484,6 +484,7 @@
                 toggleClick();
                 var elem = document.getElementById("login");
                 elem.style.display = "block";
+                banana();
                 var item = document.getElementById("focus");
                 item.focus();
                 document.addEventListener("keydown", press);
@@ -498,7 +499,6 @@
 
             function toggle() {
                 if (arguments.length > 0) {
-                    console.log("hi");
                     e = arguments[0];
                     if (e.target.classList.contains("clicky")) {
                         return;
@@ -517,8 +517,12 @@
                 }
                 var elem = document.getElementById("login");
                 elem.style.display = "none";
+                elem = document.getElementById("loginA");
+                elem.reset();
                 elem = document.getElementById("createlogin");
                 elem.style.display = "none";
+                elem = document.getElementById("createloginA");
+                elem.reset();
                 toggleClick();
                 document.body.removeEventListener("click", toggle);
                 document.removeEventListener("keydown", press);
@@ -539,10 +543,24 @@
                 toggleClick();
                 var elem = document.getElementById("createlogin");
                 elem.style.display = "block";
+                apple();
                 var item = document.getElementById("focuss");
                 item.focus();
                 setTimeout(() => document.addEventListener("keydown", press), 1);
                 setTimeout(() => document.body.addEventListener("click", toggle), 1);
+            }
+        </script>
+        <script>
+            function banana() {
+                var elem = document.getElementById("loginA");
+                var width = elem.getBoundingClientRect().width;
+                elem.style.width = width + "px";
+            }
+
+            function apple() {
+                var elem = document.getElementById("createloginA");
+                var width = elem.getBoundingClientRect().width;
+                elem.style.width = width + "px";
             }
         </script>
     </body>
