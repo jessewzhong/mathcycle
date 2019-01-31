@@ -229,3 +229,9 @@ p.slide {
 .faded {
     opacity: 0.2;
 }
+
+input, textarea, label select { font-family : inherit; font-size: inherit; }
+
+input[placeholder] {
+    padding-left: 5%
+}
