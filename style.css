@@ -201,6 +201,7 @@ hr {
 .hide {
     opacity: 0;
     transition-duration: 1.5s;
+    cursor: default;
 }
 
 p.slide {
@@ -234,4 +235,32 @@ input, textarea, label select { font-family : inherit; font-size: inherit; }
 
 input[placeholder] {
     padding-left: 5%
+}
+
+label {
+    padding-bottom: 10px;
+}
+input {
+    margin-top: 0.25em;
+    margin-bottom: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey
+}
+input:focus {
+    border-color: red;
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#login {
+    display: none; 
+    position: fixed; 
+    padding: 1%; 
+    border: red solid 1px; 
+    background-color: white; 
+    outline: 9999px solid rgba(0,0,0,0.5);
 }

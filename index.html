@@ -20,7 +20,7 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li style="float: right"><a href="index.html">Login</a></li>
+                <li style="float: right" onclick="popUp()"><a style="cursor: pointer">Login</a></li>
             </ul>
             </div>
         </div>
@@ -436,12 +436,15 @@
                 </div>
             </div>
         </div>
-        <div class="center" style="position: fixed; padding: 1%; border: red solid 1px; background-color: white">
+        <div id="login" class="center">
             <form>
+                <p class="regular">
+                    <b>math</b><span style="color: red">cycle</span>
+                </p>
                 <div class="large" style="text-align: center">Login</div>
         
-                <label for="email">Email</label><br><br>        
-                <input type="text" placeholder="Enter Email" name="email" required><br>
+                <label for="email">Email</label>      
+                <input type="text" placeholder="Enter Email" name="email" required autofocus><br>
             
                 <label for="psw">Password</label><br>
                 <input type="password" placeholder="Enter Password" name="psw" required>
@@ -453,6 +456,21 @@
         <script src="slidedown.js"></script>
         <script src="samewidth.js"></script>
         <script src="contestsadjustpadding.js"></script>
+        <script>
+            function popUp() {
+                var elem = document.getElementById("login");
+                elem.style.display = "block";
+                document.addEventListener("keydown", press);
+            }
+
+            function press(e) {
+                if (e.key === "Escape") {
+                    var elem = document.getElementById("login");
+                    elem.style.display = "none";
+                    document.removeEventListener("keydown")
+                }
+            }
+
+        </script>
     </body>
 </html>
-
