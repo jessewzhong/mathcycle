@@ -441,7 +441,6 @@
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
-                <p class="regular" style="text-align: center">Don't have an account yet?<p>
                 <div class="large clicky" style="text-align: center">Login</div>
         
                 <label class="clicky" for="email">Email</label>      
@@ -451,7 +450,9 @@
                 <input class="clicky" type="password" placeholder="Enter Password" name="psw" required>
 
                 <p class="clicky regular" style="text-align: center">Don't have an account yet?</p>
-                <p class="regular" id="account" onclick="loadCreate()">click here</p>
+                <div class="clicky" style="text-align: center">
+                    <span id="account" onclick="loadCreate()">click here</span>
+                </div>
 
             </form>
         </div>
@@ -461,7 +462,6 @@
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
-                <p class="regular" style="text-align: center">Don't have an account yet?<p>
                 <div class="large clicky" style="text-align: center">Login</div>
         
                 <label class="clicky" for="email">Email</label>      
@@ -469,9 +469,9 @@
             
                 <label class="clicky" for="psw">Password</label>
                 <input class="clicky" type="password" placeholder="Enter Password" name="psw" required>
-
-                <p class="regular" style="cursor: pointer; color: red; font-weight: bold; text-align: center; margin: 0 auto;">close</p>
-
+                <div class="clicky" style="text-align: center">
+                    <span style="cursor: pointer; color: red; font-weight: bold;">close</span>
+                </div>
             </form>
             </div>
         <script src="slidebar.js"></script>
@@ -487,7 +487,7 @@
                 var item = document.getElementById("focus");
                 item.focus();
                 document.addEventListener("keydown", press);
-                setTimeout(() => document.body.addEventListener("click", toggle), 10);
+                setTimeout(() => document.body.addEventListener("click", toggle), 1);
             }
 
             function press(e) {
@@ -541,8 +541,8 @@
                 elem.style.display = "block";
                 var item = document.getElementById("focuss");
                 item.focus();
-                document.addEventListener("keydown", press);
-                setTimeout(() => document.body.addEventListener("click", toggle), 10);
+                setTimeout(() => document.addEventListener("keydown", press), 1);
+                setTimeout(() => document.body.addEventListener("click", toggle), 1);
             }
         </script>
     </body>

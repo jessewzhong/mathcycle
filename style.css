@@ -268,7 +268,5 @@ input:focus {
 #account {
     color: red; 
     font-weight: bold; 
-    text-align: center; 
-    margin: 0 auto;
     cursor: pointer;
 }
