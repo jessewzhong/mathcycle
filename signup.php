@@ -21,7 +21,7 @@ if (isset($_POST['signup-submit'])) {
         mysqli_stmt_store_result($stmt);
         $resultCheck = mysqli_stmt_num_rows($stmt);
         if ($resultCheck > 0) {
-            header("Location: ./index.html?error=usertaken");
+            header("Location: ./index.php?username=taken");
             exit();
         }
         else {
@@ -36,7 +36,7 @@ if (isset($_POST['signup-submit'])) {
 
                 mysqli_stmt_bind_param($stmt, "sss", $username, $email, $hashedPwd);
                 mysqli_stmt_execute($stmt);
-                header("Location: ./index.html");
+                header("Location: ./index.php?signup=success");
                 exit();
             }
 

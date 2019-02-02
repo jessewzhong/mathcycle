@@ -256,7 +256,7 @@ input:focus {
     border-width: 1px;
 }
 
-#login, #createlogin {
+#login, #createlogin, #logout {
     opacity: 0;
     visibility: hidden; 
     position: fixed; 

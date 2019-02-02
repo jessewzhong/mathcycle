@@ -1,3 +1,6 @@
+<?php   
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,16 +14,23 @@
     <body> 
         <div class="top">
             <div class="header">
-                <a class="title" href="index.html">
+                <a class="title" href="index.php">
                 <span class="headertitlea">math</span><span class="headertitleb">cycle</span>
                 </a>
             </div>
             <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li id="logbutton" style="float: right" onclick="popUp()"><a style="cursor: pointer">Login</a></li>
+                <li><a class="active" href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="resources.php">Resources</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <?php
+                if (isset($_SESSION['userID'])) { ?>
+                    <li id="logoutbutton" style="float: right" onclick="popUpA()"><a style="cursor: pointer">Logout</a></li>
+                    <li style="float:right"><a href="profile.php">Profile</a></li>
+                <?php }
+                else { ?>
+                    <li id="logbutton" style="float: right" onclick="popUp()"><a style="cursor: pointer">Login</a></li>
+                <?php } ?>
             </ul>
             </div>
         </div>
@@ -437,8 +447,8 @@
             </div>
         </div>
         <div id="login" class="center clicky">
-            <img id="exit" src="./pictures/exit.png" style="width: 5%; height: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
-            <form class="clicky" id="loginA">
+            <img id="exit" src="./pictures/exit.png" style="width: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
+            <form class="clicky" id="loginA" action="login.php" method="post">
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
@@ -451,7 +461,7 @@
                 <input class="clicky" type="password" placeholder="Enter Password" name="psw" required>
 
                 <div class="clicky" style="text-align: center">
-                    <span class="under" style="cursor: pointer; color: red; font-weight: bold;"> &nbsp; submit &nbsp; </span>
+                    <button type="submit" class="under clicky" name="login-submit" style="cursor: pointer; color: red; font-weight: bold; background-color:white"> &nbsp; submit &nbsp; </button>
                 </div>
                 <p class="clicky regular" style="text-align: center; padding-top: 1em; padding-bottom: 0.5em">Don't have an account yet?</p>
                 <div class="clicky" style="text-align: center">
@@ -463,9 +473,8 @@
 
             </form>
         </div>
-
         <div id="createlogin" class="center clicky">
-            <img id="exit" src="./pictures/exit.png" style="width: 5%; height: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
+            <img id="exit" src="./pictures/exit.png" style="width: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
             <form class="clicky" id="createloginA" action="signup.php" method="post">
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
@@ -491,7 +500,7 @@
                     <span class="under" style="cursor: pointer; color: red; font-weight: bold;"> &nbsp; close &nbsp; </span>
                 </div>
             </form>
-            </div>
+        </div>
         <script src="slidebar.js"></script>
         <script src="display.js"></script>
         <script src="slidedown.js"></script>
