@@ -466,14 +466,18 @@
 
         <div id="createlogin" class="center clicky">
             <img id="exit" src="./pictures/exit.png" style="width: 5%; height: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
-            <form class="clicky" id="createloginA">
+            <form class="clicky" id="createloginA" action="signup.php" method="post">
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
                 <div class="large clicky" style="text-align: center">Login</div>
         
+
+                <label class="clicky" for="user">Username</label>      
+                <input class="clicky" id="focuss" type="text" placeholder="Enter Email" name="user" required autofocus><br>
+
                 <label class="clicky" for="email">Email</label>      
-                <input class="clicky" id="focuss" type="text" placeholder="Enter Email" name="email" required autofocus><br>
+                <input class="clicky" type="text" placeholder="Enter Email" name="email" required><br>
             
                 <label class="clicky" for="psw">Password</label>
                 <input class="clicky" type="password" placeholder="Enter Password" name="psw" required><br>
@@ -481,7 +485,7 @@
                 <label class="clicky" for="pswc">Confirm</label>
                 <input class="clicky" type="password" placeholder="Confirm Password" name="pswc" required>
                 <div class="clicky" style="text-align: center; padding-bottom: 1em">
-                        <span class="under" style="cursor: pointer; color: red; font-weight: bold;"> &nbsp; submit &nbsp; </span>
+                        <button class="under clicky" name="signup=submit" style="cursor: pointer; color: red; font-weight: bold; background-color:white"> &nbsp; submit &nbsp; </button>
                 </div>
                 <div class="clicky" style="text-align: center">
                     <span class="under" style="cursor: pointer; color: red; font-weight: bold;"> &nbsp; close &nbsp; </span>
