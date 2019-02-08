@@ -212,12 +212,22 @@ session_start();
                     </div>
                 </div>
                 <p class="regular slide">
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test
+                        Geometry is truly all around us. Look to the left or to the right. What is the shape of the 300-page Calculus textbook on the desk? How is the 
+                        cabinet structured so that it maximizes space while maintaining geometric structural integrity. The previous example might involve a bit of physics, 
+                        but nonetheless, geometry has been a centerpiece of mathematics from as long ago as 6 B.C. In particular, Greek mathematician Euclid formalized many 
+                        of the axioms and theorems of "Euclidean" geometry that form the majority of the content taught in high school geometry courses today. Since the 
+                        publication of Euclid's <i>Elements</i>, we've expanded our knowledge base from more convoluted areas of Euclidean geometry, such as transformations 
+                        and properties of special points in triangles and quadrilaterals, to more abstract representations, such as hyperbolic or spherical geometry. A 
+                        cornerstone for visualizing concepts in other areas of mathematics as well as for the underlying principles of other areas of the natural sciences, 
+                        geometry is an ever-evolving area of mathematics, and there are always nifty ideas to explore and unearth.<br><br>
+                        Here at <b>math</b><span style="color: red">cycle</span>, we aim to build upon the principles and ideas brought forth in a standard high school 
+                        geometry course, such as similar triangles, angle chasing, and areas and volumes, in order to delve into the "beauty of geometry." There are a myriad 
+                        of genuinely amazing and beautiful theorems and properties of geometric configurations that require simply an extended field of view while implementing 
+                        basic geometric methods. For example, how can one prove the relatively simple angle bisector theorem? You've seen that the medians of a triangle 
+                        intersect at a point called the centroid. Why is this? Why do the altitudes intersect also? Angle bisectors? Why can we draw a circle around a triangle 
+                        anyways and inscribe it within? These are some of the deceptively simple questions that we hope to bring to light. In addition, we wish to derive 
+                        connections between geometric concepts, establishing a link and relationship between ideas that are seemingly unrelated: How are the ratios related with 
+                        the centroid of a triangle connected to those of the center of a tetrahedron?
                 </p>
                 <div class="slider" style="margin: auto; background-color: red; height: 20px; width: 100px; cursor: pointer" onclick="slide(this)">
                     <img class="slidebutton">
