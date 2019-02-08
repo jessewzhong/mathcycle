@@ -4,6 +4,7 @@ function scrollRight() {
     hide[1].style.pointerEvents = "none";
     var elem = document.getElementsByClassName("left");
     var len = elem.length;
+    var boxes = document.getElementsByClassName("smol");
     for (var i = 0; i < elem.length; i++) {
         if (elem[i].style.left === "0%") {
             elem[i].style.left = "-100%";
@@ -12,6 +13,8 @@ function scrollRight() {
                 elem[(i + 2) % len].style.left = "100%";
             }
             doIt(elem[(i + 1)  % len]);
+            boxes[2 * i].style.backgroundColor = "red";
+            boxes[(2 * (i + 1)) % (boxes.length + 1)].style.backgroundColor = "white";
             setTimeout(function () {hide[0].style.pointerEvents = "auto"; hide[1].style.pointerEvents = "auto"}, 1000);
             break;
         }
@@ -29,6 +32,7 @@ function nut() {
     hide[1].style.pointerEvents = "none";
     var elem = document.getElementsByClassName("left");
     var len = elem.length;
+    var boxes = document.getElementsByClassName("smol");
     for (var i = 0; i < elem.length; i++) {
         if (elem[i].style.left === "0%") {
             elem[i].style.left = "100%";
@@ -37,6 +41,8 @@ function nut() {
                 elem[(i - 2 + len) % len].style.left = "-100%";
             }
             doIt(elem[(i - 1 + len) % len]);
+            boxes[2 * i].style.backgroundColor = "red";
+            boxes[(2 * (i - 1) + boxes.length + 1) % (boxes.length + 1)].style.backgroundColor = "white";
             setTimeout(function () {hide[0].style.pointerEvents = "auto"; hide[1].style.pointerEvents = "auto"}, 1000);
             break;
         }

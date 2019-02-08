@@ -83,6 +83,7 @@ li a:hover {
 .body {
     min-height: 80vh;
     padding: 10vh 20vw;
+    font-size: 100%;
 }
 
 .extralarge {
@@ -176,6 +177,12 @@ hr {
     user-select: none;
 }
 
+.smol {
+    width: calc(1vw - 2px);
+    height: calc(1vw - 2px);
+    background-color: red;
+    border: 1px solid black;
+}
 .parallax {
     background-attachment: fixed;
     background-position: center;

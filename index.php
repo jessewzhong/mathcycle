@@ -478,7 +478,13 @@ session_start();
                         <img class="click RL" onclick="scrollRight()">
                     </div>
                 </div>
-                </div>
+            </div>
+            <div class="gridbox" style="height: 1vw; width: 5vw; margin: 0 auto">
+                <div class="smol" style="background-color: white"></div>
+                <div class="smol" style="background-color: white; border-color: white"></div>
+                <div class="smol"></div>
+                <div class="smol" style="background-color: white; border-color: white"></div>
+                <div class="smol"></div>
             </div>
         </div>
         <div class="header" style="background-color: black; display: block; text-align: right;">
