@@ -251,12 +251,20 @@ session_start();
                     </div>
                 </div>
                 <p class="regular slide">
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test
+                        How many ways can you pick five players from your basketball team roster to be starters? How many scalene triangles have each of their vertices as 
+                        the 8 vertices of a unit cube? How many ways are there to arrange the letters "abbccd" to create a "word"? These are several examples of combinatorics&mdash;
+                        perhaps the most notorious aspects of mathematics for its tediousness and occassional monotony. However, this relatively new field of mathematics is 
+                        fully integrated into numerous other areas of study, including but not limited to the study of finite structures (graphs, plots, etc.), optimization, and 
+                        computer science theory. Nonetheless, there is an inherent beauty in combinatorics, mapping very complex, intricate problems to simplified versions, taking 
+                        advantage of well-conceived structures for aid. For example, the classic method of "balls and urns" allows us to reduce a problem of distributing a certain 
+                        number <i>n</i> of identical objects to a group of <i>k</i> people to that of arranging <i>n</i> circles and <i>k</i> dividers in a line, a much easier 
+                        problem that can be solved with a standard combination computation.<br><br>
+                        <b>math</b><span style="color: red">cycle</span>'s goal is to be able to expand upon the fairly limited introduction (if at all) to combinatorial 
+                        mathematics that high school mathematics courses provide. From introductory ideas such as ordering, combinations, and permuations, we hope to build 
+                        up an intuition to attacking more complex, challenging problems. Moreover, central ideas and methods to solving combinatorial problems will be evoked, 
+                        providing a strong foundation to begin constructing the basis for fluency in combinatorial thinking. There are inevitably numerous ways and approaches 
+                        to combinatorial problems, and we will help motivate and explain the positives and drawbacks of different methods, establishing pathways that include topics 
+                        such as constructive counting, complementary counting, and bijective maps. 
                 </p>
                 <div class="slider" style="margin: auto; background-color: red; height: 20px; width: 100px; cursor: pointer" onclick="slide(this)">
                     <img class="slidebutton">
@@ -302,7 +310,7 @@ session_start();
                 <p class="regular faded"> 
                     <b>AMC 8:</b> Nov 13, 2018
                 </p>
-                <p class="regular" style="color: red"> 
+                <p class="regular" style="color: red; text-decoration: underline; text-decoration-color: red"> 
                     <b>AMC 10/12:</b> Feb 7, 2019 (A), Feb 13, 2019 (B)
                 </p>
                 <p class="regular"> 
@@ -315,7 +323,7 @@ session_start();
             <div class="medium"><i>MathCounts</i></div>
             <hr style="background-color: red">
             <div class="contests">
-                <p class="regular" style="color: red"> 
+                <p class="regular" style="color: red; text-decoration: underline; text-decoration-color: red"> 
                     <b>Chapter:</b> Feb 1-28, 2019
                 </p>
                 <p class="regular"> 
@@ -391,7 +399,7 @@ session_start();
                 <p class="regular faded">  
                     <b>Round III:</b> Dec 3-9, 2018
                 </p>
-                <p class="regular" style="color: red; text-decoration: underline; text-decoration-color: red"> 
+                <p class="regular faded"> 
                     <b>Round IV:</b> Jan 28 - Feb 3, 2019
                 </p>
                 <p class="regular"> 
