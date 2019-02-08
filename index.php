@@ -188,7 +188,7 @@ session_start();
                     factoring, and graphing functions, can be applied to solving clasical and interesting problems in math competitions and beyond. Moreover, we aspire 
                     to push beyond the limits of a high school course, paving a math to understanding motivation and intution in approaching challenging problems in 
                     algebra. How do we prove the formula for the partial sums of a geometric sequence? Why is it useful to multiple by a factor and then divide it out 
-                    after a series of computations and simplifications? These are the types of questions that you will have a chance to delve into and answer.
+                    after a series of computations and simplifications? These are the types of questions that you will have a chance to delve into and answer.<br><br>
                 </p>
                 <div class="slider" style="margin: auto; background-color: red; height: 20px; width: 100px; cursor: pointer" onclick="slide(this)">
                     <img class="slidebutton">
@@ -227,7 +227,7 @@ session_start();
                         intersect at a point called the centroid. Why is this? Why do the altitudes intersect also? Angle bisectors? Why can we draw a circle around a triangle 
                         anyways and inscribe it within? These are some of the deceptively simple questions that we hope to bring to light. In addition, we wish to derive 
                         connections between geometric concepts, establishing a link and relationship between ideas that are seemingly unrelated: How are the ratios related with 
-                        the centroid of a triangle connected to those of the center of a tetrahedron?
+                        the centroid of a triangle connected to those of the center of a tetrahedron?<br><br>
                 </p>
                 <div class="slider" style="margin: auto; background-color: red; height: 20px; width: 100px; cursor: pointer" onclick="slide(this)">
                     <img class="slidebutton">
@@ -264,7 +264,7 @@ session_start();
                         up an intuition to attacking more complex, challenging problems. Moreover, central ideas and methods to solving combinatorial problems will be evoked, 
                         providing a strong foundation to begin constructing the basis for fluency in combinatorial thinking. There are inevitably numerous ways and approaches 
                         to combinatorial problems, and we will help motivate and explain the positives and drawbacks of different methods, establishing pathways that include topics 
-                        such as constructive counting, complementary counting, and bijective maps. 
+                        such as constructive counting, complementary counting, and bijective maps.<br><br>
                 </p>
                 <div class="slider" style="margin: auto; background-color: red; height: 20px; width: 100px; cursor: pointer" onclick="slide(this)">
                     <img class="slidebutton">
@@ -288,12 +288,18 @@ session_start();
                     </div>
                 </div>
                 <p class="regular slide">
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test
+                        Can every even number greater than 2 be represented as the sum of two primes? Are there any odd perfect numbers? Are there an infinite number of twin 
+                        primes? Which integers can be written as the sum of three perfect cubes? Although these questions seem extremely simple to the ear, they are just a few of 
+                        the many unsolved number theory problems in mathematics. Numbers are inherently all around us. We learn how to count from 1 to 10... We learn how to count 
+                        and skip every other number... We learn that some numbers are special and only have two divisors. Number theory, at its essence, is <i>arithmetic</i>, and 
+                        the works of Fermat, Euler, Lagrance, and many more, have allowed us to gain a greater grasp of how to categorize, manipulate, and perform operations on 
+                        numbers. Its applications are widespread throughout, from probablisitc and statistical models to solutions of diophantine and modular equations.<br><br>
+                        Whereas most high school mathematics courses do not touch upon the subject of number theory in the slightest, <b>math</b><span style="color: red">cycle</span> 
+                        will introduce this expansive subject from the ground up, touching on core topics such as prime factorization, divsion properties, and least common multiple 
+                        and greatest common divisor ideas, and providing an in-depth journey into intriguin topics such as modular arithmetic, special operations, and sequences and 
+                        series. A brief introduction to a fun topic: Given boxes of 5 and 8 chicken nuggets, what is the largest number of chicken nuggets that cannot be formed from 
+                        a combination of these two quantities? This question, motivated by a casual encounter at a local fast food restaurant, has led to the well known Chicken 
+                        McNugget Theorem.<br><br>
                 </p>
                 <div class="slider" style="margin: auto; background-color: red; height: 20px; width: 100px; cursor: pointer" onclick="slide(this)">
                     <img class="slidebutton">
