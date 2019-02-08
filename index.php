@@ -178,7 +178,17 @@ session_start();
                     </div>
                 </div>
                 <p class="regular slide">
-                        What is algebra? Who invented algebra? Why is it so foundational?
+                    Al-Khwarizmi, known as the "father of algebra," first introduced the word <i>algebra</i> in his book <i>Ilm al-jabr wa'l-muḳābala</i>, and it 
+                    translates roughly to "the reunion of broken parts." This broad part of mathematics has been introduced and widespread through all levels of education, 
+                    from courses titled "Algebra I" and "Algebra II" to "Algebraic Number Theory" and "Linear Algebra." We are led into this realm through the introduction 
+                    of expressions, variable expressions, and simple algebraic equations. But this area of math truly is integrated with and is foundational for 
+                    multiple other parts of mathematics, spanning concepts such as analysis of functions, operations on polynomials, and fundamental properties of 
+                    factoring and simplification.<br><br>
+                    <b>math</b><span style="color: red">cycle</span> hopes to illustrate how concepts introduced in high school algebra, such as solving equations, 
+                    factoring, and graphing functions, can be applied to solving clasical and interesting problems in math competitions and beyond. Moreover, we aspire 
+                    to push beyond the limits of a high school course, paving a math to understanding motivation and intution in approaching challenging problems in 
+                    algebra. How do we prove the formula for the partial sums of a geometric sequence? Why is it useful to multiple by a factor and then divide it out 
+                    after a series of computations and simplifications? These are the types of questions that you will have a chance to delve into and answer.
                 </p>
                 <div class="slider" style="margin: auto; background-color: red; height: 20px; width: 100px; cursor: pointer" onclick="slide(this)">
                     <img class="slidebutton">
@@ -503,12 +513,29 @@ session_start();
                 </div>
             </form>
         </div>
+        <div id="logout" class="center clicky">
+            <img id="exit" src="./pictures/exit.png" style="width: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
+            <form class="clicky" id="logoutA" action="logout.php" method="post">
+                <p class="regular clicky">
+                    <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
+                </p>
+                <div class="large clicky" style="text-align: center">Logout</div>
+                <p class="clicky regular" style="text-align: center; padding-top: 1em; padding-bottom: 0.5em">Are you sure?</p>
+                <div class="clicky" style="text-align: center; padding-bottom: 1em">
+                        <button type="submit" class="under clicky" name="login-submit" style="cursor: pointer; color: red; font-weight: bold; background-color:white"> &nbsp; logout &nbsp; </button>
+                </div>
+                <div class="clicky" style="text-align: center">
+                    <span class="under" style="cursor: pointer; color: red; font-weight: bold;"> &nbsp; close &nbsp; </span>
+                </div>
+            </form>
+        </div>
         <script src="slidebar.js"></script>
         <script src="display.js"></script>
         <script src="slidedown.js"></script>
         <script src="samewidth.js"></script>
         <script src="contestsadjustpadding.js"></script>
         <script src="loginstuff.js"></script>
+        <script src="logoutstuff.js"></script>
         <script src="maintainwidth.js"></script>
     </body>
 </html>
