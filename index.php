@@ -178,12 +178,7 @@ session_start();
                     </div>
                 </div>
                 <p class="regular slide">
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test 
-                        This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test
+                        What is algebra? Who invented algebra? Why is it so foundational?
                 </p>
                 <div class="slider" style="margin: auto; background-color: red; height: 20px; width: 100px; cursor: pointer" onclick="slide(this)">
                     <img class="slidebutton">
@@ -444,6 +439,13 @@ session_start();
                     <div class="click" onclick="scrollRight()"></div>
                 </div>
                 </div>
+            </div>
+        </div>
+        <div class="header" style="background-color: black; display: block; text-align: right">
+            <div style="display: inline-block;">
+                <a class="title" href="index.php">
+                <span class="headertitlea">math</span><span class="headertitleb">cycle</span>
+                </a>
             </div>
         </div>
         <div id="login" class="center clicky">

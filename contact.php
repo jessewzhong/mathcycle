@@ -48,6 +48,13 @@ session_start();
                 you for your contribution.
             </p>    
         </div>
+        <div class="header" style="background-color: black; display: block; text-align: right">
+            <div style="display: inline-block;">
+                <a class="title" href="index.php">
+                <span class="headertitlea">math</span><span class="headertitleb">cycle</span>
+                </a>
+            </div>
+        </div>
         <div id="login" class="center clicky">
             <img id="exit" src="./pictures/exit.png" style="width: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
             <form class="clicky" id="loginA" action="login.php" method="post">

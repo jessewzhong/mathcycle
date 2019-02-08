@@ -81,6 +81,7 @@ li a:hover {
 }
 
 .body {
+    min-height: 80vh;
     padding: 10vh 20vw;
 }
 

@@ -23,12 +23,12 @@ if (isset($_SESSION['userID']) == false) {
                 </a>
             </div>
             <ul>
-                <li><a class="active" href="index.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="resources.php">Resources</a></li>
                 <li><a href="contact.php">Contact</a></li>
                 <li id="logoutbutton" style="float: right" onclick="popUpA()"><a style="cursor: pointer">Logout</a></li>
-                <li style="float: right"><a href="profile.php">Profile</a></li>
+                <li class="active" style="float: right"><a href="profile.php">Profile</a></li>
             </ul>
             </div>
         </div>
@@ -42,6 +42,13 @@ if (isset($_SESSION['userID']) == false) {
                 math is not restricted from anyone. Approachable to anyone, we hope to instill a greater appreciation of the sheer grandeur of math and reveal innumerous 
                 possibilities to each and every user.
             </p>
+        </div>
+        <div class="header" style="background-color: black; display: block; text-align: right">
+            <div style="display: inline-block;">
+                <a class="title" href="index.php">
+                <span class="headertitlea">math</span><span class="headertitleb">cycle</span>
+                </a>
+            </div>
         </div>
         <div id="login" class="center clicky">
             <img id="exit" src="./pictures/exit.png" style="width: 5%; height: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
