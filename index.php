@@ -116,7 +116,7 @@ session_start();
                     we hope to <i>evolve</i> math education through a unique and personalized experience for students of all backgrounds.
                 </p>
                 <div class="medium"><i>Click to Explore</i></div>
-                <hr style="background-color: red">
+                <hr>
                 <div class="gridbox" style="align-items: flex-start">
                     <div class="grid redback">
                         <div class="extralarge disp" onclick="display(this)">Accessible</div>
@@ -162,7 +162,7 @@ session_start();
             </div>
             <div style="position: relative">
                 <div class="medium" style="text-align: center"><i>Algebra</i></div>
-                <hr style="background-color: red">
+                <hr>
                 <div class="gridbox" style="align-items: flex-start">
                     <div class="grid2">
                         <img src="./pictures/alg1.png">
@@ -196,7 +196,7 @@ session_start();
             </div>
             <div style="position: relative">
                 <div class="medium" style="text-align: center"><i>Geometry</i></div>
-                <hr style="background-color: red">
+                <hr>
                 <div class="gridbox" style="align-items: flex-start">
                     <div class="grid2">
                         <img src="./pictures/geo1.png">
@@ -235,7 +235,7 @@ session_start();
             </div>
             <div style="position: relative">
                 <div class="medium" style="text-align: center"><i>Combinatorics</i></div>
-                <hr style="background-color: red">
+                <hr>
                 <div class="gridbox" style="align-items: flex-start">
                     <div class="grid2">
                         <img src="./pictures/combo1.png">
@@ -272,7 +272,7 @@ session_start();
             </div>
             <div style="position: relative">
                 <div class="medium" style="text-align: center"><i>Number Theory</i></div>
-                <hr style="background-color: red">
+                <hr>
                 <div class="gridbox" style="align-items: flex-start">
                     <div class="grid2">
                         <img src="./pictures/nt1.png">
@@ -311,7 +311,7 @@ session_start();
                 </div>
             </div>
             <div class="medium"><i>AMC Series</i></div>
-            <hr style="background-color: red">
+            <hr>
             <div class="contests">
                 <p class="regular faded"> 
                     <b>AMC 8:</b> Nov 13, 2018
@@ -327,7 +327,7 @@ session_start();
                 </p>
             </div>
             <div class="medium"><i>MathCounts</i></div>
-            <hr style="background-color: red">
+            <hr>
             <div class="contests">
                 <p class="regular" style="color: red; text-decoration: underline; text-decoration-color: red"> 
                     <b>Chapter:</b> Feb 1-28, 2019
@@ -340,7 +340,7 @@ session_start();
                 </p>
             </div>
             <div class="medium"><i>School Tournaments</i></div>
-            <hr style="background-color: red">
+            <hr>
             <div class="contests">
                 <p class="regular faded"> 
                     <b>Texas A&M (TAMU):</b> Oct 20, 2018
@@ -368,7 +368,7 @@ session_start();
                 </p>
             </div>
             <div class="medium"><i>USAMTS</i></div>
-            <hr style="background-color: red">
+            <hr>
             <div class="contests">
                 <p class="regular faded">  
                     <b>Round I:</b> Sep 4 - Oct 15, 2018
@@ -394,7 +394,7 @@ session_start();
                 </p>
             </div>
             <div class="medium"><i>Mandelbrot</i></div>
-            <hr style="background-color: red">
+            <hr>
             <div class="contests">
                 <p class="regular faded">  
                     <b>Round I:</b> Oct 1-7, 2018
@@ -413,7 +413,7 @@ session_start();
                 </p>
             </div>
             <div class="medium"><i>Others</i></div>
-            <hr style="background-color: red">
+            <hr>
             <div class="contests">
                 <p class="regular faded">  
                     <b>Math Prize for Girls:</b> Sep 23, 2018
@@ -451,31 +451,37 @@ session_start();
                 for a complete list with more contests.
             </p>
             <p class="regular">
-                Key: <span class="faded">completed</span> | <span style="color: red; text-decoration: underline; text-decoration-color: red">ongoing</span> | 
+                <b>Key:</b> <span class="faded">completed</span> | <span style="color: red; text-decoration: underline; text-decoration-color: red">ongoing</span> | 
                 <span style="color: red">soon</span> | future
             </p>
-            <div style="display: flex">
-                <div style="width: 15%; cursor: pointer" >
-                    <div class="click" onclick="nut()"></div>
+            <div class="medium" style="text-align: center"><i>QUOTES</i></div>
+            <hr style="background-color: red">
+            <div style="display: flex; height: 15vh">
+                <div style="width: 15%; cursor: pointer; position: relative" >
+                    <div class="center" style="width: 50%; height: 50%; cursor: pointer">
+                        <img class="click RL" style="transform: scaleX(-1)" onclick="nut()">
+                    </div>
                 </div>
                 <div style="overflow: hidden; display: flex; flex-wrap: nowrap; width: 70%; position: relative">
                     <a href="index.html" style="left: 0%; opacity: 1" class="left">
-                        <img src="./pictures/amc.png" style="height: 100%; width: 100%">
+                        <img src="./pictures/amc.png" style="height: 100%; width: 100%; object-fit: contain">
                     </a>
                     <a href="resources.html" style="left: 100%; opacity: 0" class="left">
-                        <img src="./pictures/cmimc.png" style="height: 100%; width: 100%">
+                        <img src="./pictures/cmimc.png" style="height: 100%; width: 100%; object-fit: contain">
                     </a>
                     <a href="contact.html" style="left: -100%; opacity: 0" class="left">
-                        <img src="./pictures/pumac.png" style="height: 100%; width: 100%;">
+                        <img src="./pictures/pumac.png" style="height: 100%; width: 100%; object-fit: contain">
                     </a>
                 </div>
-                <div style="width: 15%; cursor: pointer">
-                    <div class="click" onclick="scrollRight()"></div>
+                <div style="width: 15%; position: relative">
+                    <div class="center" style="width: 50%; height: 50%; cursor: pointer">
+                        <img class="click RL" onclick="scrollRight()">
+                    </div>
                 </div>
                 </div>
             </div>
         </div>
-        <div class="header" style="background-color: black; display: block; text-align: right">
+        <div class="header" style="background-color: black; display: block; text-align: right;">
             <div style="display: inline-block;">
                 <a class="title" href="index.php">
                 <span class="headertitlea">math</span><span class="headertitleb">cycle</span>

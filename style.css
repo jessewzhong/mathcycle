@@ -150,7 +150,7 @@ hr {
 
 .click {
     width: 100%; 
-    height: 100px; 
+    height: 100%; 
     background-color:red; 
     z-index: 1; 
     cursor: pointer;
@@ -161,6 +161,19 @@ hr {
     transition-duration: 1s;
     width: 100%;
     height: 100%;
+}
+
+/* prevents highlight on spam click */
+.RL {
+    content:url("./pictures/arrow.svg");
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .parallax {
