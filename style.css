@@ -180,7 +180,7 @@ hr {
 .smol {
     width: calc(1vw - 2px);
     height: calc(1vw - 2px);
-    background-color: red;
+    background-color: white;
     border: 1px solid black;
 }
 .parallax {

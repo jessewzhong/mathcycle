@@ -13,8 +13,8 @@ function scrollRight() {
                 elem[(i + 2) % len].style.left = "100%";
             }
             doIt(elem[(i + 1)  % len]);
-            boxes[2 * i].style.backgroundColor = "red";
-            boxes[(2 * (i + 1)) % (boxes.length + 1)].style.backgroundColor = "white";
+            boxes[2 * i].style.backgroundColor = "white";
+            boxes[(2 * (i + 1)) % (boxes.length + 1)].style.backgroundColor = "red";
             setTimeout(function () {hide[0].style.pointerEvents = "auto"; hide[1].style.pointerEvents = "auto"}, 1000);
             break;
         }
@@ -41,8 +41,8 @@ function nut() {
                 elem[(i - 2 + len) % len].style.left = "-100%";
             }
             doIt(elem[(i - 1 + len) % len]);
-            boxes[2 * i].style.backgroundColor = "red";
-            boxes[(2 * (i - 1) + boxes.length + 1) % (boxes.length + 1)].style.backgroundColor = "white";
+            boxes[2 * i].style.backgroundColor = "white";
+            boxes[(2 * (i - 1) + boxes.length + 1) % (boxes.length + 1)].style.backgroundColor = "red";
             setTimeout(function () {hide[0].style.pointerEvents = "auto"; hide[1].style.pointerEvents = "auto"}, 1000);
             break;
         }

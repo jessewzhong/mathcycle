@@ -480,7 +480,7 @@ session_start();
                 </div>
             </div>
             <div class="gridbox" style="height: 1vw; width: 5vw; margin: 0 auto">
-                <div class="smol" style="background-color: white"></div>
+                <div class="smol" style="background-color: red"></div>
                 <div class="smol" style="background-color: white; border-color: white"></div>
                 <div class="smol"></div>
                 <div class="smol" style="background-color: white; border-color: white"></div>
