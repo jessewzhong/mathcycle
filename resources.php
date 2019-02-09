@@ -54,7 +54,7 @@ session_start();
                         <img src="./pictures/khanacademy.png">
                 </a>
                 <a class="grid" href="https://brilliant.org/" target="_blank">
-                        <img src="./pictures/brilliant.png">
+                        <img src="./pictures/brilliant2.png">
                 </a>
             </div>
             <div class="medium">Summer Programs</div>
@@ -107,7 +107,7 @@ session_start();
                     <img src="./pictures/amc.png">
                 </a>
                 <a class="grid" href="https://www.mathcounts.org/" target="_blank">
-                        <img src="./pictures/mathcounts.png">
+                        <img src="./pictures/mathcounts2.jpg">
                 </a>
             </div>
         </div>

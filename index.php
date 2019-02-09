@@ -463,14 +463,35 @@ session_start();
                     </div>
                 </div>
                 <div style="overflow: hidden; display: flex; flex-wrap: nowrap; width: 70%; position: relative">
-                    <a href="index.html" style="left: 0%; opacity: 1" class="left">
+                    <a href="https://www.maa.org/math-competitions/" target="_blank" style="left: 0%; opacity: 1" class="left">
                         <img src="./pictures/amc.png" style="height: 100%; width: 100%; object-fit: contain">
                     </a>
-                    <a href="resources.html" style="left: 100%; opacity: 0" class="left">
-                        <img src="./pictures/cmimc.png" style="height: 100%; width: 100%; object-fit: contain">
+                    <a href="https://www.mathcounts.org/" target="_blank" style="left: 100%; opacity: 0" class="left">
+                        <img src="./pictures/mathcounts2.jpg" style="height: 100%; width: 100%; object-fit: contain">
                     </a>
-                    <a href="contact.html" style="left: -100%; opacity: 0" class="left">
-                        <img src="./pictures/pumac.png" style="height: 100%; width: 100%; object-fit: contain">
+                    <a href="http://www.hmmt.co/" target="_blank" style="left: 100%; opacity: 0" class="left">
+                        <img src="./pictures/hmmt2.png" style="height: 100%; width: 100%; object-fit: contain;">
+                    </a>
+                    <a href="http://www.mandelbrot.org/" target="_blank" style="left: 100%; opacity: 0" class="left">
+                        <img src="./pictures/mandelbrot.gif" style="height: 100%; width: 100%; object-fit: contain;">
+                    </a>
+                    <a href="http://internetolympiad.org/pages/11-omo" target="_blank" style="left: 100%; opacity: 0" class="left">
+                        <img src="./pictures/omo.png" style="height: 100%; width: 100%; object-fit: contain;">
+                    </a>
+                    <a href="https://purplecomet.org/" target="_blank" style="left: 100%; opacity: 0" class="left">
+                        <img src="./pictures/purplecomet.jpg" style="height: 100%; width: 100%; object-fit: contain;">
+                    </a>
+                    <a href="http://www.arml2.com/arml_2018/page/index.php?page_type=public&page=home" target="_blank" style="left: 100%; opacity: 0" class="left">
+                        <img src="./pictures/arml.jpg" style="height: 100%; width: 100%; object-fit: contain;">
+                    </a>
+                    <a href="https://www.imo-official.org/" target="_blank" style="left: 100%; opacity: 0" class="left">
+                        <img src="./pictures/imo.png" style="height: 100%; width: 100%; object-fit: contain;">
+                    </a>
+                    <a href="https://sumo.stanford.edu/smt/" target="_blank" style="left: 100%; opacity: 0" class="left">
+                        <img src="./pictures/sumo.png" style="height: 100%; width: 100%; object-fit: contain;">
+                    </a>
+                    <a href="https://bmt.berkeley.edu/" target="_blank" style="left: -100%; opacity: 0" class="left">
+                        <img src="./pictures/bmt.png" style="height: 100%; width: 100%; object-fit: contain;">
                     </a>
                 </div>
                 <div style="width: 15%; position: relative">
@@ -479,8 +500,22 @@ session_start();
                     </div>
                 </div>
             </div>
-            <div class="gridbox" style="height: 1vw; width: 5vw; margin: 0 auto">
+            <div class="gridbox" style="height: 0.75vw; width: 14.25vw; margin: 0 auto">
                 <div class="smol" style="background-color: red"></div>
+                <div class="smol" style="background-color: white; border-color: white"></div>
+                <div class="smol"></div>
+                <div class="smol" style="background-color: white; border-color: white"></div>
+                <div class="smol"></div>
+                <div class="smol" style="background-color: white; border-color: white"></div>
+                <div class="smol"></div>
+                <div class="smol" style="background-color: white; border-color: white"></div>
+                <div class="smol"></div>
+                <div class="smol" style="background-color: white; border-color: white"></div>
+                <div class="smol"></div>
+                <div class="smol" style="background-color: white; border-color: white"></div>
+                <div class="smol"></div>
+                <div class="smol" style="background-color: white; border-color: white"></div>
+                <div class="smol"></div>
                 <div class="smol" style="background-color: white; border-color: white"></div>
                 <div class="smol"></div>
                 <div class="smol" style="background-color: white; border-color: white"></div>

@@ -178,8 +178,8 @@ hr {
 }
 
 .smol {
-    width: calc(1vw - 2px);
-    height: calc(1vw - 2px);
+    width: calc(0.75vw - 2px);
+    height: calc(0.75vw - 2px);
     background-color: white;
     border: 1px solid black;
 }
