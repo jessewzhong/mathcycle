@@ -34,9 +34,9 @@ if (isset($_SESSION['userID']) == false) {
         </div>
         <div class="body animated slow fadeIn">
             <div class="large">Profile</div>
-            <div class="medium" style="padding-top: 0"><?php echo $_SESSION['userUID'];?></div>
+            <div class="medium" style="padding-top: 0">Welcome, <?php echo $_SESSION['userUID'];?>!</div>
             <hr>
-            <p class="regular"><span style="color: red">Your Score:</span> <?php echo $_SESSION['userID'];?></p>
+            <p class="regular"><span style="color: red">Your ID:</span> <?php echo sprintf('%04u', $_SESSION['userID']);?></p>
             <p class="regular"><b>math</b><span style="color: red">cycle</span> aims to share the beauty and elegance of the study of mathematics with students, teachers, 
                 professionals... the list goes on. We are committed to providing quality, original, and free resources to the community so that the mesmerizing sphere of 
                 math is not restricted from anyone. Approachable to anyone, we hope to instill a greater appreciation of the sheer grandeur of math and reveal innumerous 
