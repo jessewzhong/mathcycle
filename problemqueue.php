@@ -68,7 +68,28 @@ else if (isset($_POST['geo-submit'])) {
         if ($row = mysqli_fetch_assoc($result)) {
             $_SESSION['topic'] = "Geometry";
             $_SESSION['number'] = $_SESSION['geoNumber'];
-            header("Location: ./practice?problem=A".$_SESSION['geoNumber']);
+
+            $var = "geo";
+            $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
+            $stmt1 = mysqli_stmt_init($conn);
+            if (!mysqli_stmt_prepare($stmt1, $sql1)) {
+                header("Location: ./profile.php?error=sqlerror");
+                exit();
+            }
+            else {
+                mysqli_stmt_bind_param($stmt1, "si", $var, $_SESSION['number']);
+                mysqli_stmt_execute($stmt1);
+                $result1 = mysqli_stmt_get_result($stmt1);
+                if ($row1 = mysqli_fetch_assoc($result1)) {
+                    $_SESSION['text'] = $row1['text'];
+                }
+                else {   
+                    header("Location: ./profile.php?error=sqlerror");
+                    exit();
+                }
+            }
+
+            header("Location: ./practice.php?problem=G".$_SESSION['geoNumber']);
             exit();
         }
         else {
@@ -96,7 +117,28 @@ else if (isset($_POST['combo-submit'])) {
         if ($row = mysqli_fetch_assoc($result)) {
             $_SESSION['topic'] = "Combinatorics";
             $_SESSION['number'] = $_SESSION['comboNumber'];
-            header("Location: ./practice?problem=A".$_SESSION['comboNumber']);
+
+            $var = "combo";
+            $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
+            $stmt1 = mysqli_stmt_init($conn);
+            if (!mysqli_stmt_prepare($stmt1, $sql1)) {
+                header("Location: ./profile.php?error=sqlerror");
+                exit();
+            }
+            else {
+                mysqli_stmt_bind_param($stmt1, "si", $var, $_SESSION['number']);
+                mysqli_stmt_execute($stmt1);
+                $result1 = mysqli_stmt_get_result($stmt1);
+                if ($row1 = mysqli_fetch_assoc($result1)) {
+                    $_SESSION['text'] = $row1['text'];
+                }
+                else {   
+                    header("Location: ./profile.php?error=sqlerror");
+                    exit();
+                }
+            }
+
+            header("Location: ./practice.php?problem=C".$_SESSION['comboNumber']);
             exit();
         }
         else {
@@ -124,7 +166,28 @@ else if (isset($_POST['NT-submit'])) {
         if ($row = mysqli_fetch_assoc($result)) {
             $_SESSION['topic'] = "Number Theory";
             $_SESSION['number'] = $_SESSION['NTNumber'];
-            header("Location: ./practice?problem=A".$_SESSION['NTNumber']);
+
+            $var = "NT";
+            $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
+            $stmt1 = mysqli_stmt_init($conn);
+            if (!mysqli_stmt_prepare($stmt1, $sql1)) {
+                header("Location: ./profile.php?error=sqlerror");
+                exit();
+            }
+            else {
+                mysqli_stmt_bind_param($stmt1, "si", $var, $_SESSION['number']);
+                mysqli_stmt_execute($stmt1);
+                $result1 = mysqli_stmt_get_result($stmt1);
+                if ($row1 = mysqli_fetch_assoc($result1)) {
+                    $_SESSION['text'] = $row1['text'];
+                }
+                else {   
+                    header("Location: ./profile.php?error=sqlerror");
+                    exit();
+                }
+            }
+
+            header("Location: ./practice.php?problem=N".$_SESSION['NTNumber']);
             exit();
         }
         else {
