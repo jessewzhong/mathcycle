@@ -34,12 +34,12 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
         </div>
         <div class="body animated slow fadeIn">
             <div class="large">Practice</div>
-            <div class="medium" style="padding-top: 0">Problem: <?php echo $_SESSION['topic']." ".$_SESSION['number'];?></div>
+            <div class="medium" style="padding-top: 0">
+                <?php echo "<b>".$_SESSION['topic'].":</b>"." <i>Problem ".mb_substr($_SESSION['topic'], 0, 1).$_SESSION['number']."</i>";?>
+            </div>
             <hr>
-            <p class="regular"><b>math</b><span style="color: red">cycle</span> aims to share the beauty and elegance of the study of mathematics with students, teachers, 
-                professionals... the list goes on. We are committed to providing quality, original, and free resources to the community so that the mesmerizing sphere of 
-                math is not restricted from anyone. Approachable to anyone, we hope to instill a greater appreciation of the sheer grandeur of math and reveal innumerous 
-                possibilities to each and every user.
+            <p class="regular">
+                <?php echo $_SESSION['text']; ?>
             </p>
         </div>
         <div class="header" style="background-color: black; display: block; text-align: right">

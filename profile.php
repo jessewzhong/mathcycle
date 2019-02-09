@@ -45,18 +45,34 @@ if (isset($_SESSION['userID']) == false) {
             <div class="medium">Practice</div>
             <hr>
             <div class="contests" style="display: table">
-                <a class="regular subject" href="practice.php">  
-                    <b>Algebra</b>
-                </a>
-                <p class="regular subject">  
-                    <b>Geometry</b>
-                </p>
-                <p class="regular subject">  
-                    <b>Combinatorics</b>
-                </p>
-                <p class="regular subject">  
-                    <b>Number Theory</b>
-                </p>
+                <div> 
+                    <form action="problemqueue.php" method="post">
+                        <button type="submit" name="alg-submit" class="regular subject">  
+                            <b>Algebra</b>
+                        </button>
+                    </form>
+                </div>  
+                <div>
+                    <form action="problemqueue.php" method="post">
+                        <button type="submit" name="geo-submit" class="regular subject">  
+                            <b>Geometry</b>
+                        </button>
+                    </form>
+                </div>  
+                <div>
+                    <form action="problemqueue.php" method="post">
+                        <button type="submit" name="combo-submit" class="regular subject">  
+                            <b>Combinatorics</b>
+                        </button>
+                    </form>
+                </div>  
+                <div>
+                    <form action="problemqueue.php" method="post">
+                        <button type="submit" name="NT-submit" class="regular subject">  
+                            <b>Number Theory</b>
+                        </button>
+                    </form>
+                </div>  
             </div>
         </div>
         <div class="header" style="background-color: black; display: block; text-align: right">

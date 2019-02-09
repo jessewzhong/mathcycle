@@ -1,10 +1,10 @@
 <?php
 
-if (isset($_GET['algebra-submit'])) {
-
+if (isset($_POST['alg-submit'])) {
+    session_start();
     require 'dbh.php';
 
-    $username = $_SESSION['userID']
+    $username = $_SESSION['userID'];
 
     $sql = "SELECT * FROM users WHERE idUsers=?";
     $stmt = mysqli_stmt_init($conn);
@@ -17,10 +17,30 @@ if (isset($_GET['algebra-submit'])) {
         mysqli_stmt_execute($stmt);
         $result = mysqli_stmt_get_result($stmt);
         if ($row = mysqli_fetch_assoc($result)) {
-            session_start();
             $_SESSION['topic'] = "Algebra";
             $_SESSION['number'] = $_SESSION['algNumber'];
-            header("Location: ./practice?problem=A".$_SESSION['algNumber']);
+
+            $var = "alg";
+            $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
+            $stmt1 = mysqli_stmt_init($conn);
+            if (!mysqli_stmt_prepare($stmt1, $sql1)) {
+                header("Location: ./profile.php?error=sqlerror");
+                exit();
+            }
+            else {
+                mysqli_stmt_bind_param($stmt1, "si", $var, $_SESSION['number']);
+                mysqli_stmt_execute($stmt1);
+                $result1 = mysqli_stmt_get_result($stmt1);
+                if ($row1 = mysqli_fetch_assoc($result1)) {
+                    $_SESSION['text'] = $row1['text'];
+                }
+                else {   
+                    header("Location: ./profile.php?error=sqlerror");
+                    exit();
+                }
+            }
+
+            header("Location: ./practice.php?problem=A".$_SESSION['algNumber']);
             exit();
         }
         else {
@@ -29,11 +49,11 @@ if (isset($_GET['algebra-submit'])) {
         }
     }
 }
-else if (isset($_GET['geo-submit'])) {
-
+else if (isset($_POST['geo-submit'])) {
+    session_start();
     require 'dbh.php';
 
-    $username = $_SESSION['userID']
+    $username = $_SESSION['userID'];
 
     $sql = "SELECT * FROM users WHERE idUsers=?";
     $stmt = mysqli_stmt_init($conn);
@@ -46,7 +66,6 @@ else if (isset($_GET['geo-submit'])) {
         mysqli_stmt_execute($stmt);
         $result = mysqli_stmt_get_result($stmt);
         if ($row = mysqli_fetch_assoc($result)) {
-            session_start();
             $_SESSION['topic'] = "Geometry";
             $_SESSION['number'] = $_SESSION['geoNumber'];
             header("Location: ./practice?problem=A".$_SESSION['geoNumber']);
@@ -58,11 +77,11 @@ else if (isset($_GET['geo-submit'])) {
         }
     }
 }
-else if (isset($_GET['combo-submit'])) {
-
+else if (isset($_POST['combo-submit'])) {
+    session_start();
     require 'dbh.php';
 
-    $username = $_SESSION['userID']
+    $username = $_SESSION['userID'];
 
     $sql = "SELECT * FROM users WHERE idUsers=?";
     $stmt = mysqli_stmt_init($conn);
@@ -75,7 +94,6 @@ else if (isset($_GET['combo-submit'])) {
         mysqli_stmt_execute($stmt);
         $result = mysqli_stmt_get_result($stmt);
         if ($row = mysqli_fetch_assoc($result)) {
-            session_start();
             $_SESSION['topic'] = "Combinatorics";
             $_SESSION['number'] = $_SESSION['comboNumber'];
             header("Location: ./practice?problem=A".$_SESSION['comboNumber']);
@@ -87,11 +105,11 @@ else if (isset($_GET['combo-submit'])) {
         }
     }
 }
-else if (isset($_GET['NT-submit'])) {
-
+else if (isset($_POST['NT-submit'])) {
+    session_start();
     require 'dbh.php';
 
-    $username = $_SESSION['userID']
+    $username = $_SESSION['userID'];
 
     $sql = "SELECT * FROM users WHERE idUsers=?";
     $stmt = mysqli_stmt_init($conn);
@@ -104,7 +122,6 @@ else if (isset($_GET['NT-submit'])) {
         mysqli_stmt_execute($stmt);
         $result = mysqli_stmt_get_result($stmt);
         if ($row = mysqli_fetch_assoc($result)) {
-            session_start();
             $_SESSION['topic'] = "Number Theory";
             $_SESSION['number'] = $_SESSION['NTNumber'];
             header("Location: ./practice?problem=A".$_SESSION['NTNumber']);

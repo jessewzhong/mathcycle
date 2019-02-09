@@ -308,13 +308,14 @@ button:active {
     outline: none;
 }
 
-p.subject {
+button.subject {
+    background-color: white;
     cursor: pointer;
     transition-duration: 0.5s;
     padding-bottom: 1rem;
 }
 
-.subject:hover {
+button.subject:hover {
     color: red;
     font-size: 2em;
 }
