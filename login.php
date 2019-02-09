@@ -10,7 +10,7 @@ if (isset($_POST['login-submit'])) {
     $sql = "SELECT * FROM users WHERE emailUsers=?";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
-        header("Location: ../index.php?error=sqlerror");
+        header("Location: ./index.php?error=sqlerror");
         exit();
     }
     else {
@@ -20,13 +20,17 @@ if (isset($_POST['login-submit'])) {
         if ($row = mysqli_fetch_assoc($result)) {
             $pwdCheck = password_verify($password, $row['pwdUsers']);
             if ($pwdCheck == false) {
-                header("Location: ./index.html?error=wrongPassword");
+                header("Location: ./index.phpW?error=wrongPassword");
                 exit();
             }
             else if ($pwdCheck == true) {
                 session_start();
                 $_SESSION['userID'] = $row['idUsers'];
                 $_SESSION['userUID'] = $row['uidUsers'];
+                $_SESSION['algNumber'] = $row['alg'];
+                $_SESSION['geoNumber'] = $row['geo'];
+                $_SESSION['comboNumber'] = $row['combo'];
+                $_SESSION['NTNumber'] = $row['NT'];
 
                 header("Location: ./index.php?login=success");
                 exit();

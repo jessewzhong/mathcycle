@@ -1,7 +1,7 @@
 <?php   
 session_start();
-if (isset($_SESSION['userID']) == false) {
-    header("Location: ./index.php?return");
+if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) {
+    header("Location: ./profile.php?return");
     exit();
 }
 ?>
@@ -34,9 +34,8 @@ if (isset($_SESSION['userID']) == false) {
         </div>
         <div class="body animated slow fadeIn">
             <div class="large">Practice</div>
-            <div class="medium" style="padding-top: 0">Problem: <?php echo $_SESSION['userUID'];?></div>
+            <div class="medium" style="padding-top: 0">Problem: <?php echo $_SESSION['topic']." ".$_SESSION['number'];?></div>
             <hr>
-            <p class="regular"><span style="color: red">Your Score:</span> <?php echo $_SESSION['userID'];?></p>
             <p class="regular"><b>math</b><span style="color: red">cycle</span> aims to share the beauty and elegance of the study of mathematics with students, teachers, 
                 professionals... the list goes on. We are committed to providing quality, original, and free resources to the community so that the mesmerizing sphere of 
                 math is not restricted from anyone. Approachable to anyone, we hope to instill a greater appreciation of the sheer grandeur of math and reveal innumerous 

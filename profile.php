@@ -45,9 +45,9 @@ if (isset($_SESSION['userID']) == false) {
             <div class="medium">Practice</div>
             <hr>
             <div class="contests" style="display: table">
-                <p class="regular subject">  
+                <a class="regular subject" href="practice.php">  
                     <b>Algebra</b>
-                </p>
+                </a>
                 <p class="regular subject">  
                     <b>Geometry</b>
                 </p>
