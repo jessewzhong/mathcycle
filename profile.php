@@ -34,7 +34,7 @@ if (isset($_SESSION['userID']) == false) {
         </div>
         <div class="body animated slow fadeIn">
             <div class="large">Profile</div>
-            <div class="medium"><?php echo $_SESSION['userUID'];?></div>
+            <div class="medium" style="padding-top: 0"><?php echo $_SESSION['userUID'];?></div>
             <hr>
             <p class="regular"><span style="color: red">Your Score:</span> <?php echo $_SESSION['userID'];?></p>
             <p class="regular"><b>math</b><span style="color: red">cycle</span> aims to share the beauty and elegance of the study of mathematics with students, teachers, 
@@ -42,6 +42,22 @@ if (isset($_SESSION['userID']) == false) {
                 math is not restricted from anyone. Approachable to anyone, we hope to instill a greater appreciation of the sheer grandeur of math and reveal innumerous 
                 possibilities to each and every user.
             </p>
+            <div class="medium">Practice</div>
+            <hr>
+            <div class="contests" style="display: table">
+                <p class="regular subject">  
+                    <b>Algebra</b>
+                </p>
+                <p class="regular subject">  
+                    <b>Geometry</b>
+                </p>
+                <p class="regular subject">  
+                    <b>Combinatorics</b>
+                </p>
+                <p class="regular subject">  
+                    <b>Number Theory</b>
+                </p>
+            </div>
         </div>
         <div class="header" style="background-color: black; display: block; text-align: right">
             <div style="display: inline-block;">
@@ -93,6 +109,7 @@ if (isset($_SESSION['userID']) == false) {
                 </div>
             </form>
         </div>
+        <script src=contestsadjustpadding.js></script>
         <script src="loginstuff.js"></script>
         <script src="logoutstuff.js"></script>
     </body>

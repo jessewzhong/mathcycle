@@ -151,8 +151,7 @@ hr {
 
 .click {
     width: 100%; 
-    height: 100%; 
-    background-color:red; 
+    height: 100%;  
     z-index: 1; 
     cursor: pointer;
 }
@@ -307,4 +306,15 @@ button {
 
 button:active {
     outline: none;
+}
+
+p.subject {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding-bottom: 1rem;
+}
+
+.subject:hover {
+    color: red;
+    font-size: 2em;
 }

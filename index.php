@@ -105,7 +105,7 @@ session_start();
             <hr style="background-color: red">
             <div style="display: flex; height: 15vh">
                 <div style="width: 15%; cursor: pointer; position: relative" >
-                    <div class="center" style="width: 50%; height: 50%; cursor: pointer">
+                    <div class="center" style="width: 50%; height: 50%;">
                         <img class="click RL" style="transform: scaleX(-1)" onclick="nut()">
                     </div>
                 </div>
@@ -564,7 +564,6 @@ session_start();
                 </p>
                 <div class="large clicky" style="text-align: center">Login</div>
         
-
                 <label class="clicky" for="user">Username</label>      
                 <input class="clicky" id="focuss" type="text" placeholder="Enter Email" name="user" required autofocus><br>
 
