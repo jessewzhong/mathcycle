@@ -41,14 +41,16 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
             <p class="regular" style="min-height: 25vh">
                 <?php echo $_SESSION['text']; ?>
             </p>
+            <p class="regular" style="text-align: center">hi
+            </p> 
             <div style="text-align: center">
-            <form action="problemcheck.php" method="post" style="display: inline-block; width: 20%">     
-                <input type="text" class="centered" placeholder="Answer" name="answer" required style="width: 50%; text-align: center; padding-right: 0"><br>
-                <button type="submit" class="under" name="answer-submit" style="color: red; font-weight: bold;">  
-                    <b> &nbsp; submit &nbsp; </b>
-                </button>
+                <form action="problemcheck.php" method="post" style="display: inline-block; width: 20%">     
+                    <input type="text" class="centered" placeholder="Answer" name="answer" required style="width: 50%; text-align: center; padding-right: 0"><br>
+                    <button type="submit" class="under" name="answer-submit" style="color: red; font-weight: bold;">  
+                        <b> &nbsp; submit &nbsp; </b>
+                    </button>
             </form>
-        </div>
+            </div>
         </div>
         <div class="header" style="background-color: black; display: block; text-align: right">
             <div style="display: inline-block;">
