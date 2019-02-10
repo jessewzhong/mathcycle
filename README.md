@@ -5,10 +5,11 @@ This project is currently in progress. Please see http://mathcycle.epizy.com/mat
 
 **Currently Working on:** implementing practice module of profile
 
-###Bugfixes as of 2/10/19
--correct/incorrect message not resetting
--scrollbar images highligh upon spam-clicking
--user practice status not updating
+## Bugfixes as of 2/10/19
+* correct/incorrect message not resetting
+* scrollbar images highligh upon spam-clicking
+* user practice status not updating
+
 ## Compatibility
  Chrome desktop compatibility is live; I am working on Firefox, IE, Safari, etc. Mobile compatibility not optimizied.
 ## Author
