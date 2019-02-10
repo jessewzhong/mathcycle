@@ -303,6 +303,8 @@ button {
     padding: 0;
     text-decoration: none;
     outline: none;
+    cursor: pointer; 
+    background-color:white
 }
 
 button:active {

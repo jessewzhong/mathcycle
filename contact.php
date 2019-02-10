@@ -70,7 +70,7 @@ session_start();
                 <input class="clicky" type="password" placeholder="Enter Password" name="psw" required>
 
                 <div class="clicky" style="text-align: center">
-                    <button type="submit" class="under clicky" name="login-submit" style="cursor: pointer; color: red; font-weight: bold; background-color:white"> &nbsp; submit &nbsp; </button>
+                    <button type="submit" class="under clicky" name="login-submit" style="color: red; font-weight: bold;"> &nbsp; submit &nbsp; </button>
                 </div>
                 <p class="clicky regular" style="text-align: center; padding-top: 1em; padding-bottom: 0.5em">Don't have an account yet?</p>
                 <div class="clicky" style="text-align: center">
@@ -103,7 +103,7 @@ session_start();
                 <label class="clicky" for="pswc">Confirm</label>
                 <input class="clicky" type="password" placeholder="Confirm Password" name="pswc" required>
                 <div class="clicky" style="text-align: center; padding-bottom: 1em">
-                        <button type="submit" class="under clicky" name="signup-submit" style="cursor: pointer; color: red; font-weight: bold; background-color:white"> &nbsp; submit &nbsp; </button>
+                        <button type="submit" class="under clicky" name="signup-submit" style="color: red; font-weight: bold;"> &nbsp; submit &nbsp; </button>
                 </div>
                 <div class="clicky" style="text-align: center">
                     <span class="under" style="cursor: pointer; color: red; font-weight: bold;"> &nbsp; close &nbsp; </span>
@@ -119,7 +119,7 @@ session_start();
                 <div class="large clicky" style="text-align: center">Logout</div>
                 <p class="clicky regular" style="text-align: center; padding-top: 1em; padding-bottom: 0.5em">Are you sure?</p>
                 <div class="clicky" style="text-align: center; padding-bottom: 1em">
-                        <button type="submit" class="under clicky" name="login-submit" style="cursor: pointer; color: red; font-weight: bold; background-color:white"> &nbsp; logout &nbsp; </button>
+                        <button type="submit" class="under clicky" name="login-submit" style="color: red; font-weight: bold;"> &nbsp; logout &nbsp; </button>
                 </div>
                 <div class="clicky" style="text-align: center">
                     <span class="under" style="cursor: pointer; color: red; font-weight: bold;"> &nbsp; close &nbsp; </span>
