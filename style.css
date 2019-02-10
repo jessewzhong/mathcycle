@@ -254,7 +254,11 @@ p.slide {
 input, textarea, label select, button { font-family : inherit; font-size: inherit; }
 
 input[placeholder] {
-    padding-left: 5%
+    padding-left: 5%;
+}
+
+input.centered[placeholder] {
+    padding-left: 0;
 }
 
 label {
