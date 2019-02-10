@@ -41,16 +41,28 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
             <p class="regular" style="min-height: 25vh">
                 <?php echo $_SESSION['text']; ?>
             </p>
-            <p class="regular" style="text-align: center">hi
-            </p> 
-            <div style="text-align: center">
-                <form action="problemcheck.php" method="post" style="display: inline-block; width: 20%">     
-                    <input type="text" class="centered" placeholder="Answer" name="answer" required style="width: 50%; text-align: center; padding-right: 0"><br>
-                    <button type="submit" class="under" name="answer-submit" style="color: red; font-weight: bold;">  
-                        <b> &nbsp; submit &nbsp; </b>
-                    </button>
-            </form>
-            </div>
+            <?php if (isset($_SESSION['state']) && $_SESSION['state'] == "correct") { ?>
+                <p class="regular" style="text-align: center; color: green"><b><?php echo $_SESSION['answer'] ?></b> was the correct answer!</p> 
+                <div style="text-align: center">
+                    <form action="nextproblem.php" method="post" style="display: inline-block;">     
+                        <button type="submit" class="under" name="next-submit" style="color: red; font-weight: bold;">  
+                            <b> &nbsp; next &nbsp; </b>
+                        </button>
+                    </form>
+                </div>
+            <?php } else if (isset($_SESSION['state']) && $_SESSION['state'] == "wrong") { ?>
+                <p class="regular" style="text-align: center; color: red">Incorrect! Try again.</p> 
+            <?php } ?>
+            <?php if (isset($_SESSION['state']) == false || $_SESSION['state'] == "wrong") { ?>
+                <div style="text-align: center">
+                    <form action="problemcheck.php" method="post" style="display: inline-block; width: 20%">     
+                        <input type="text" class="centered" placeholder="Answer" name="answer" required style="width: 50%; text-align: center; padding-right: 0"><br>
+                        <button type="submit" class="under" name="answer-submit" style="color: red; font-weight: bold;">  
+                            <b> &nbsp; submit &nbsp; </b>
+                        </button>
+                    </form>
+                </div>
+            <?php } ?>
         </div>
         <div class="header" style="background-color: black; display: block; text-align: right">
             <div style="display: inline-block;">

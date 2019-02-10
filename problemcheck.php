@@ -46,6 +46,7 @@ if (isset($_POST['answer-submit'])) {
                 if ($row1 = mysqli_fetch_assoc($result1)) {
                     if ($answer == $row1['answer']) {
                         $_SESSION['state'] = "correct";
+                        $_SESSION['answer'] = $row1['answer'];
                     }
                     else {
                         $_SESSION['state'] = "wrong";
