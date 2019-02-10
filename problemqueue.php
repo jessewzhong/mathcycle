@@ -40,7 +40,7 @@ if (isset($_POST['alg-submit'])) {
                 }
             }
 
-            header("Location: ./practice.php?problem=A".$_SESSION['algNumber']);
+            header("Location: ./profile/practice.php?problem=A".$_SESSION['algNumber']);
             exit();
         }
         else {
@@ -89,7 +89,7 @@ else if (isset($_POST['geo-submit'])) {
                 }
             }
 
-            header("Location: ./practice.php?problem=G".$_SESSION['geoNumber']);
+            header("Location: ./profile/practice.php?problem=G".$_SESSION['geoNumber']);
             exit();
         }
         else {
@@ -138,7 +138,7 @@ else if (isset($_POST['combo-submit'])) {
                 }
             }
 
-            header("Location: ./practice.php?problem=C".$_SESSION['comboNumber']);
+            header("Location: ./profile/practice.php?problem=C".$_SESSION['comboNumber']);
             exit();
         }
         else {
@@ -187,7 +187,7 @@ else if (isset($_POST['NT-submit'])) {
                 }
             }
 
-            header("Location: ./practice.php?problem=N".$_SESSION['NTNumber']);
+            header("Location: ./profile/practice.php?problem=N".$_SESSION['NTNumber']);
             exit();
         }
         else {

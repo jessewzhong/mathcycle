@@ -1,7 +1,7 @@
 <?php   
 session_start();
 if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) {
-    header("Location: ./profile.php?return");
+    header("Location: ../profile.php?return");
     exit();
 }
 ?>
@@ -11,24 +11,24 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
         <meta charset = "UTF-8">
         <title>Home</title>
         <meta name="author" content="Jesse Zhong">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="./node_modules/animate.css/animate.css">
+        <link rel="stylesheet" href="../node_modules/animate.css/animate.css">
     </head>
     <body> 
         <div class="top">
             <div class="header">
-                <a class="title" href="index.php">
+                <a class="title" href="../index.php">
                 <span class="headertitlea">math</span><span class="headertitleb">cycle</span>
                 </a>
             </div>
             <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="resources.php">Resources</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../about.php">About</a></li>
+                <li><a href="../resources.php">Resources</a></li>
+                <li><a href="../contact.php">Contact</a></li>
                 <li id="logoutbutton" style="float: right" onclick="popUpA()"><a style="cursor: pointer">Logout</a></li>
-                <li class="active" style="float: right"><a href="profile.php">Profile</a></li>
+                <li class="active" style="float: right"><a href="../profile.php">Profile</a></li>
             </ul>
             </div>
         </div>
@@ -66,14 +66,14 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
         </div>
         <div class="header" style="background-color: black; display: block; text-align: right">
             <div style="display: inline-block;">
-                <a class="title" href="index.php">
+                <a class="title" href="../index.php">
                 <span class="headertitlea">math</span><span class="headertitleb">cycle</span>
                 </a>
             </div>
         </div>
         <div id="login" class="center clicky">
-            <img id="exit" src="./pictures/exit.png" style="width: 5%; height: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
-            <form class="clicky" id="loginA" action="login.php" method="post">
+            <img id="exit" src="../pictures/exit.png" style="width: 5%; height: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
+            <form class="clicky" id="loginA" action="../login.php" method="post">
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
@@ -99,8 +99,8 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
             </form>
         </div>
         <div id="logout" class="center clicky">
-            <img id="exit" src="./pictures/exit.png" style="width: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
-            <form class="clicky" id="logoutA" action="logout.php" method="post">
+            <img id="exit" src="../pictures/exit.png" style="width: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
+            <form class="clicky" id="logoutA" action="../logout.php" method="post">
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
@@ -114,7 +114,7 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
                 </div>
             </form>
         </div>
-        <script src="loginstuff.js"></script>
-        <script src="logoutstuff.js"></script>
+        <script src="../loginstuff.js"></script>
+        <script src="../logoutstuff.js"></script>
     </body>
 </html>

@@ -2,7 +2,7 @@
 
 if (isset($_POST['answer-submit'])) {
     session_start();
-    require 'dbh.php';
+    require '../dbh.php';
 
     $answer = $_POST['answer'];
     $username = $_SESSION['userID'];
