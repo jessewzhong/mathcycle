@@ -33,7 +33,7 @@ if (isset($_POST['next-submit'])) {
 
             $_SESSION['number'] = $_SESSION['number'] + 1;
 
-            $sql1 = "UPDATE users SET alg=? WHERE idUsers=?";
+            $sql1 = "UPDATE users SET ".$var."=? WHERE idUsers=?";
             $stmt1 = mysqli_stmt_init($conn);
             if (!mysqli_stmt_prepare($stmt1, $sql1)) {
                 header("Location: ./practice.php?error=sqlerror");
