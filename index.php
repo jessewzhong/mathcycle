@@ -109,7 +109,7 @@ session_start();
                         <img class="click RL" style="transform: scaleX(-1)" onclick="nut()">
                     </div>
                 </div>
-                <div style="overflow: hidden; display: flex; flex-wrap: nowrap; width: 70%; position: relative">
+                <div class="sbar" style="overflow: hidden; display: flex; flex-wrap: nowrap; width: 70%; position: relative">
                     <a href="https://www.maa.org/math-competitions/" target="_blank" style="left: 0%; opacity: 1" class="left">
                         <img src="./pictures/amc.png" style="height: 100%; width: 100%; object-fit: contain">
                     </a>

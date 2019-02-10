@@ -164,6 +164,15 @@ hr {
 }
 
 /* prevents highlight on spam click */
+.sbar img {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* prevents highlight on spam click */
 .RL {
     content:url("./pictures/arrow.svg");
     width: 100%; 
