@@ -374,7 +374,7 @@ session_start();
             </div>
             <div class="parallax" style="position: relative">
                 <div class="center">
-                    <span class="large" style="padding-bottom: 0; color: white">Contests: <i>2018 - 2019</i></span>
+                    <span class="large" style="padding-bottom: 0; color: white">Contests <i>2018 - 2019</i></span>
                 </div>
             </div>
             <div class="medium"><i>AMC Series</i></div>
@@ -475,7 +475,7 @@ session_start();
                 <p class="regular faded"> 
                     <b>Round IV:</b> Jan 28 - Feb 3, 2019
                 </p>
-                <p class="regular"> 
+                <p class="regular" style="color: red"> 
                     <b>Round V:</b> Feb 25 - Mar 3, 2019
                 </p>
             </div>
