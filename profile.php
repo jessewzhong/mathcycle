@@ -36,13 +36,22 @@ if (isset($_SESSION['userID']) == false) {
             <div class="large">Profile</div>
             <div class="medium" style="padding-top: 0">Welcome, <?php echo $_SESSION['userUID'];?>!</div>
             <hr>
-            <p class="regular"><span style="color: red">Your ID:</span> <?php echo sprintf('%04u', $_SESSION['userID']);?></p>
-            <p class="regular"><span style="color: red">Your Score:</span> <?php echo sprintf('%04u', $_SESSION['score']);?></p>
-            <p class="regular"><b>math</b><span style="color: red">cycle</span> aims to share the beauty and elegance of the study of mathematics with students, teachers, 
-                professionals... the list goes on. We are committed to providing quality, original, and free resources to the community so that the mesmerizing sphere of 
-                math is not restricted from anyone. Approachable to anyone, we hope to instill a greater appreciation of the sheer grandeur of math and reveal innumerous 
-                possibilities to each and every user.
-            </p>
+            <p class="regular"><span style="color: red"><b>Your ID:</b></span> <?php echo sprintf('%04u', $_SESSION['userID']);?></p>
+            <p class="regular"><span style="color: red"><b>Your Score:</b></span> <?php echo sprintf('%04u', $_SESSION['score']);?></p>
+            <div class="contests">
+                <p class="regular">  
+                    <span style="color: red">Algebra Score:</span> <?php echo sprintf('%04u', $_SESSION['algNumber'] - 1);?>
+                </p>
+                <p class="regular">  
+                    <span style="color: red">Geometry Score:</span> <?php echo sprintf('%04u', $_SESSION['geoNumber'] - 1);?>
+                </p>
+                <p class="regular">  
+                    <span style="color: red">Combo Score:</span> <?php echo sprintf('%04u', $_SESSION['comboNumber'] - 1);?>
+                </p>
+                <p class="regular">  
+                    <span style="color: red">NT Score:</span> <?php echo sprintf('%04u', $_SESSION['NTNumber'] - 1);?>
+                </p>
+            </div>
             <div class="medium">Practice</div>
             <hr>
             <div class="contests" style="display: table">
