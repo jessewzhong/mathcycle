@@ -5,6 +5,10 @@ This project is currently in progress. Please see http://mathcycle.epizy.com/mat
 
 **Currently Working on:** implementing practice module of profile
 
+## Updates as of 2/15/19
+* profile displays total score as well as subject scores
+* reformatted practice page for aesthetics
+
 ## Bugfixes as of 2/10/19
 * correct/incorrect message not resetting
 * scrollbar images highligh upon spam-clicking
