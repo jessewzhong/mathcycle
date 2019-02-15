@@ -82,8 +82,9 @@ session_start();
                 </p>
             </div>
         </div>
-        <div class="header" style="background-color: black; display: block; text-align: right">
-            <div style="display: inline-block;">
+        <div class="header" style="background-color: black; display: flex; align-items: baseline; justify-content: space-between">
+            <div class="regular" style="color: white">Questions? Contact Us!</div>
+            <div style="display: inline-block; float: right">
                 <a class="title" href="index.php">
                 <span class="headertitlea">math</span><span class="headertitleb">cycle</span>
                 </a>

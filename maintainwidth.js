@@ -9,3 +9,8 @@ function apple() {
     var width = elem.getBoundingClientRect().width;
     elem.style.width = width + "px";
 }
+
+function pineapple() {
+    var elem = document.getElementById("logoutA");
+    elem.style.width = document.getElementById("loginA").getBoundingClientRect().width + "px";
+}   

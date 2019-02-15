@@ -23,10 +23,6 @@ function pressA(e) {
         toggle();
     }
 }
-function pineapple() {
-    var elem = document.getElementById("logoutA");
-    elem.style.width = document.getElementById("loginA").getBoundingClientRect().width + "px";
-}
 
 function toggleA() {
     if (arguments.length > 0) {
