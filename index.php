@@ -383,7 +383,7 @@ session_start();
                 <p class="regular faded"> 
                     <b>AMC 8:</b> Nov 13, 2018
                 </p>
-                <p class="regular" style="color: red; text-decoration: underline; text-decoration-color: red"> 
+                <p class="regular faded"> 
                     <b>AMC 10/12:</b> Feb 7, 2019 (A), Feb 13, 2019 (B)
                 </p>
                 <p class="regular"> 
