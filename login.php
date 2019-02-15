@@ -31,6 +31,7 @@ if (isset($_POST['login-submit'])) {
                 $_SESSION['geoNumber'] = $row['geo'];
                 $_SESSION['comboNumber'] = $row['combo'];
                 $_SESSION['NTNumber'] = $row['NT'];
+                $_SESSION['score'] = $row['alg'] + $row['geo'] + $row['combo'] + $row['NT'] - 4;
 
                 header("Location: ./index.php?login=success");
                 exit();

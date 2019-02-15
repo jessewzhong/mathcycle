@@ -38,7 +38,7 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
                 <?php echo "<b>".$_SESSION['topic'].":</b>"." <i>Problem ".mb_substr($_SESSION['topic'], 0, 1).$_SESSION['number']."</i>";?>
             </div>
             <hr>
-            <p class="regular" style="min-height: 25vh">
+            <p class="regular" style="min-height: 25vh; padding-top: 1em;">
                 <?php echo $_SESSION['text']; ?>
             </p>
             <?php if (isset($_SESSION['state']) && $_SESSION['state'] == "correct") { ?>
