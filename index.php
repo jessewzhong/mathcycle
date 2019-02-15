@@ -221,6 +221,7 @@ session_start();
                         This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test This is a test
                     </p>
                 </div>
+                <div style="padding-top: 1.5%"></div>
             </div>
             <div class="parallax" style="position: relative">
                 <div class="center">
@@ -371,6 +372,7 @@ session_start();
                 <div class="slider" style="margin: auto; background-color: red; height: 20px; width: 100px; cursor: pointer" onclick="slide(this)">
                     <img class="slidebutton">
                 </div>
+                <div style="padding-top: 2em"></div>
             </div>
             <div class="parallax" style="position: relative">
                 <div class="center">
@@ -510,7 +512,8 @@ session_start();
                     <b>IMO:</b> Jul 2019
                 </p>
             </div>
-            <p class="regular" style="padding-top: 1em">
+            <div style="padding-top: 2em"></div>
+            <p class="regular">
                 See 
                 <a href="https://artofproblemsolving.com/community/c5h1670248_201819_contest_info" target="blank" style="color: red; text-decoration: none">
                     <b>here</b>
