@@ -1,4 +1,4 @@
-## mathcycle
+# mathcycle
 Built with HTML, CSS, JavaScript, PHP, and SQL; run locally with XAMPP.
 
 This project is currently in progress. Please see http://mathcycle.epizy.com/mathcycle/ to see up-to-date site.
