@@ -20,7 +20,7 @@ This project is currently in progress. Please see http://mathcycle.epizy.com/mat
 
 ## Problem Pool
 * Targetting around 50 problems per subject in ascending difficulty
-
+* Including original problems and selected ones from previous contests
 ## Compatibility
  Chrome desktop compatibility is live; I am working on Firefox, IE, Safari, etc. Mobile compatibility not optimizied.
 
