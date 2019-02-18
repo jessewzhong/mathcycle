@@ -18,6 +18,8 @@ This project is currently in progress. Please see http://mathcycle.epizy.com/mat
 * User status not updated unless **next** is pressed after submitting a correct answer
 * Currently unable to access previously solved problems
 
+## Problem Pool
+
 ## Compatibility
  Chrome desktop compatibility is live; I am working on Firefox, IE, Safari, etc. Mobile compatibility not optimizied.
 
