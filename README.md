@@ -3,7 +3,7 @@ Built with HTML, CSS, JavaScript, PHP, and SQL; run locally with XAMPP.
 
 This project is currently in progress. Please see http://mathcycle.epizy.com/mathcycle/ to see up-to-date site.
 
-**Currently Working On:** implementing practice module of profile, improving UI/UX
+**Currently Working On:** implementing practice module of profile, improving UI/UX, and embedding LaTeX in HTML
 
 ## Updates as of 2/15/19
 * Profile displays total score as well as subject scores
