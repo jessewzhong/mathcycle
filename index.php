@@ -104,7 +104,7 @@ session_start();
             <div class="medium" style="text-align: center"><i><b>Current and Future Contests</b></i></div>
             <hr style="background-color: red">
             <div style="display: flex; height: 15vh">
-                <div style="width: 15%; cursor: pointer; position: relative" >
+                <div style="width: 15%; position: relative" >
                     <div class="center" style="width: 50%; height: 50%;">
                         <img class="click RL" style="transform: scaleX(-1)" onclick="nut()">
                     </div>
