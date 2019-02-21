@@ -11,7 +11,7 @@ This project is currently in progress. Please see http://mathcycle.epizy.com/mat
 
 ## Bugfixes as of 2/20/19
 * Correct/incorrect message not resetting
-* Scrollbar images highligh upon spam-clicking
+* Scrollbar images (+ all images) highlight upon spam-clicking
 * User practice status not updating
 * Scrollbar arrow click radius size is too large
 
