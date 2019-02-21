@@ -84,6 +84,8 @@ else if (isset($_POST['geo-submit'])) {
                 $result1 = mysqli_stmt_get_result($stmt1);
                 if ($row1 = mysqli_fetch_assoc($result1)) {
                     $_SESSION['text'] = $row1['text'];
+                    unset($_SESSION['state']);
+                    unset($_SESSION['answer']);
                 }
                 else {   
                     header("Location: ./profile.php?error=sqlerror");
@@ -133,6 +135,8 @@ else if (isset($_POST['combo-submit'])) {
                 $result1 = mysqli_stmt_get_result($stmt1);
                 if ($row1 = mysqli_fetch_assoc($result1)) {
                     $_SESSION['text'] = $row1['text'];
+                    unset($_SESSION['state']);
+                    unset($_SESSION['answer']);
                 }
                 else {   
                     header("Location: ./profile.php?error=sqlerror");
@@ -182,6 +186,8 @@ else if (isset($_POST['NT-submit'])) {
                 $result1 = mysqli_stmt_get_result($stmt1);
                 if ($row1 = mysqli_fetch_assoc($result1)) {
                     $_SESSION['text'] = $row1['text'];
+                    unset($_SESSION['state']);
+                    unset($_SESSION['answer']);
                 }
                 else {   
                     header("Location: ./profile.php?error=sqlerror");
