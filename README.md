@@ -9,10 +9,11 @@ This project is currently in progress. Please see http://mathcycle.epizy.com/mat
 * Profile displays total score as well as subject scores
 * Reformatted practice page for aesthetics
 
-## Bugfixes as of 2/17/19
+## Bugfixes as of 2/20/19
 * Correct/incorrect message not resetting
 * Scrollbar images highligh upon spam-clicking
 * User practice status not updating
+* Scrollbar arrow click radius size is too large
 
 ## Bugs/Design Choices
 * User status not updated unless **next** is pressed after submitting a correct answer
@@ -21,6 +22,7 @@ This project is currently in progress. Please see http://mathcycle.epizy.com/mat
 ## Problem Pool
 * Targetting around 50 problems per subject in ascending difficulty
 * Including original problems and selected ones from previous contests
+
 ## Compatibility
  Chrome desktop compatibility is live; I am working on Firefox, IE, Safari, etc. Mobile compatibility not optimizied.
 
