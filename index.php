@@ -426,13 +426,13 @@ session_start();
                 <p class="regular faded"> 
                     <b>Carnegie Mellon (CMIMC):</b> Jan 26, 2019
                 </p>
-                <p class="regular" style="color: red"> 
+                <p class="regular faded"> 
                     <b>HMMT February (MIT):</b> Feb 16, 2019
                 </p>
-                <p class="regular"> 
+                <p class="regular" style="color: red"> 
                     <b>Stanford (SMT):</b> Mar 2, 2019
                 </p>
-                <p class="regular" sty> 
+                <p class="regular" style="color: red"> 
                     <b>Berkeley (BMT):</b> Mar 2019
                 </p>
             </div>
