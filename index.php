@@ -388,7 +388,7 @@ session_start();
                 <p class="regular faded"> 
                     <b>AMC 10/12:</b> Feb 7, 2019 (A), Feb 13, 2019 (B)
                 </p>
-                <p class="regular"> 
+                <p class="regular" style="color: red"> 
                     <b>AIME:</b> Mar 13, 2019 (I), Mar 21, 2019 (II)
                 </p>
                 <p class="regular"> 
@@ -401,7 +401,7 @@ session_start();
                 <p class="regular" style="color: red; text-decoration: underline; text-decoration-color: red"> 
                     <b>Chapter:</b> Feb 1-28, 2019
                 </p>
-                <p class="regular"> 
+                <p class="regular" style="color: red"> 
                     <b>State:</b> Mar 1 - Apr 1, 2019
                 </p>
                 <p class="regular"> 
