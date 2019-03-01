@@ -21,6 +21,31 @@ if (isset($_POST['alg-submit'])) {
             $_SESSION['number'] = $_SESSION['algNumber'];
 
             $var = "alg";
+
+            $sqlt = "SELECT * FROM problems WHERE type=?";
+            $stmtt = mysqli_stmt_init($conn);
+            if (!mysqli_stmt_prepare($stmtt, $sqlt)) {
+                header("Location: ./profile.php?error=sqlerror");
+                exit();
+            }
+            else {
+                $count;
+                mysqli_stmt_bind_param($stmtt, "s", $var);
+                mysqli_stmt_execute($stmtt);
+                $resultt = mysqli_stmt_get_result($stmtt);
+                while ($rowt = mysqli_fetch_assoc($resultt)) {
+                    $count++;
+                }
+
+                if ($_SESSION['number'] > $count) {
+                    header("Location: ./profile/congrats.php");
+                    exit();
+                }
+                else {
+                    ; 
+                }
+            }
+
             $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
             $stmt1 = mysqli_stmt_init($conn);
             if (!mysqli_stmt_prepare($stmt1, $sql1)) {
@@ -72,6 +97,31 @@ else if (isset($_POST['geo-submit'])) {
             $_SESSION['number'] = $_SESSION['geoNumber'];
 
             $var = "geo";
+
+            $sqlt = "SELECT * FROM problems WHERE type=?";
+            $stmtt = mysqli_stmt_init($conn);
+            if (!mysqli_stmt_prepare($stmtt, $sqlt)) {
+                header("Location: ./profile.php?error=sqlerror");
+                exit();
+            }
+            else {
+                $count;
+                mysqli_stmt_bind_param($stmtt, "s", $var);
+                mysqli_stmt_execute($stmtt);
+                $resultt = mysqli_stmt_get_result($stmtt);
+                while ($rowt = mysqli_fetch_assoc($resultt)) {
+                    $count++;
+                }
+
+                if ($_SESSION['number'] > $count) {
+                    header("Location: ./profile/congrats.php");
+                    exit();
+                }
+                else {
+                    ; 
+                }
+            }
+
             $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
             $stmt1 = mysqli_stmt_init($conn);
             if (!mysqli_stmt_prepare($stmt1, $sql1)) {
@@ -123,6 +173,31 @@ else if (isset($_POST['combo-submit'])) {
             $_SESSION['number'] = $_SESSION['comboNumber'];
 
             $var = "combo";
+
+            $sqlt = "SELECT * FROM problems WHERE type=?";
+            $stmtt = mysqli_stmt_init($conn);
+            if (!mysqli_stmt_prepare($stmtt, $sqlt)) {
+                header("Location: ./profile.php?error=sqlerror");
+                exit();
+            }
+            else {
+                $count;
+                mysqli_stmt_bind_param($stmtt, "s", $var);
+                mysqli_stmt_execute($stmtt);
+                $resultt = mysqli_stmt_get_result($stmtt);
+                while ($rowt = mysqli_fetch_assoc($resultt)) {
+                    $count++;
+                }
+
+                if ($_SESSION['number'] > $count) {
+                    header("Location: ./profile/congrats.php");
+                    exit();
+                }
+                else {
+                    ; 
+                }
+            }
+
             $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
             $stmt1 = mysqli_stmt_init($conn);
             if (!mysqli_stmt_prepare($stmt1, $sql1)) {
@@ -174,6 +249,31 @@ else if (isset($_POST['NT-submit'])) {
             $_SESSION['number'] = $_SESSION['NTNumber'];
 
             $var = "NT";
+
+            $sqlt = "SELECT * FROM problems WHERE type=?";
+            $stmtt = mysqli_stmt_init($conn);
+            if (!mysqli_stmt_prepare($stmtt, $sqlt)) {
+                header("Location: ./profile.php?error=sqlerror");
+                exit();
+            }
+            else {
+                $count;
+                mysqli_stmt_bind_param($stmtt, "s", $var);
+                mysqli_stmt_execute($stmtt);
+                $resultt = mysqli_stmt_get_result($stmtt);
+                while ($rowt = mysqli_fetch_assoc($resultt)) {
+                    $count++;
+                }
+
+                if ($_SESSION['number'] > $count) {
+                    header("Location: ./profile/congrats.php");
+                    exit();
+                }
+                else {
+                    ; 
+                }
+            }
+
             $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
             $stmt1 = mysqli_stmt_init($conn);
             if (!mysqli_stmt_prepare($stmt1, $sql1)) {

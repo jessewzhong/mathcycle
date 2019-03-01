@@ -75,7 +75,7 @@ if (isset($_POST['next-submit'])) {
                                 $count++;
                             }
 
-                            if ($S_SESSION['number'] > $count) {
+                            if ($_SESSION['number'] > $count) {
                                 header("Location: ./congrats.php");
                                 exit();
                             }
