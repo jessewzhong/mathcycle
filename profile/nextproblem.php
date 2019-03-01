@@ -60,6 +60,30 @@ if (isset($_POST['next-submit'])) {
                         unset($_SESSION['answer']);
                         unset($_SESSION['state']);
 
+                        $sqlt = "SELECT * FROM problems WHERE type=?";
+                        $stmtt = mysqli_stmt_init($conn);
+                        if (!mysqli_stmt_prepare($stmtt, $sqlt)) {
+                            header("Location: ../profile.php?error=sqlerror");
+                            exit();
+                        }
+                        else {
+                            $count;
+                            mysqli_stmt_bind_param($stmtt, "s", $var);
+                            mysqli_stmt_execute($stmtt);
+                            $resultt = mysqli_stmt_get_result($stmtt);
+                            while ($rowt = mysqli_fetch_assoc($resultt)) {
+                                $count++;
+                            }
+
+                            if ($S_SESSION['number'] > $count) {
+                                header("Location: ./congrats.php");
+                                exit();
+                            }
+                            else {
+                                ; 
+                            }
+                        }
+
                         $sql2 = "SELECT * FROM problems WHERE type=? AND number=?";
                         $stmt2 = mysqli_stmt_init($conn);
                         if (!mysqli_stmt_prepare($stmt2, $sql2)) {
