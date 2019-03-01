@@ -38,7 +38,7 @@ if (isset($_POST['login-submit'])) {
             }
         }
         else {
-            header("Location: ./index.html?error=noUser");
+            header("Location: ./index.php?error=noUser");
             exit();
         }
     }
