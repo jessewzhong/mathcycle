@@ -49,7 +49,7 @@ if (isset($_SESSION['userID']) == false) {
                     <span style="color: red">Combo Score:</span> <?php echo sprintf('%04u', $_SESSION['comboNumber'] - 1);?>
                 </p>
                 <p class="regular">  
-                    <span style="color: red">NT Score:</span> <?php echo sprintf('%04u', $_SESSION['NTNumber'] - 1);?>
+                    <span style="color: red">Number Theory Score:</span> <?php echo sprintf('%04u', $_SESSION['NTNumber'] - 1);?>
                 </p>
             </div>
             <div class="medium">Practice</div>
