@@ -57,15 +57,15 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
             </div>
         </div>
         <div id="login" class="center clicky">
-            <img id="exit" src="../pictures/exit.png" style="width: 5%; height: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
-            <form class="clicky" id="loginA" action="../login.php" method="post">
+            <img id="exit" src="./pictures/exit.png" style="width: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
+            <form class="clicky" id="loginA" action="login.php" method="post">
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
                 <div class="large clicky" style="text-align: center">Login</div>
         
-                <label class="clicky" for="email">Email</label>
-                <input class="clicky" id="focus" type="text" placeholder="Enter Email" name="email" required autofocus><br>
+                <label class="clicky" for="user">Username</label>
+                <input class="clicky" id="focus" type="text" placeholder="Enter Username" name="user" required autofocus><br>
             
                 <label class="clicky" for="psw">Password</label>
                 <input class="clicky" type="password" placeholder="Enter Password" name="psw" required>

@@ -98,8 +98,8 @@ session_start();
                 </p>
                 <div class="large clicky" style="text-align: center">Login</div>
         
-                <label class="clicky" for="email">Email</label>
-                <input class="clicky" id="focus" type="text" placeholder="Enter Email" name="email" required autofocus><br>
+                <label class="clicky" for="user">Username</label>
+                <input class="clicky" id="focus" type="text" placeholder="Enter Username" name="user" required autofocus><br>
             
                 <label class="clicky" for="psw">Password</label>
                 <input class="clicky" type="password" placeholder="Enter Password" name="psw" required>
@@ -123,11 +123,10 @@ session_start();
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
-                <div class="large clicky" style="text-align: center">Login</div>
+                <div class="large clicky" style="text-align: center">Sign Up</div>
         
-
                 <label class="clicky" for="user">Username</label>      
-                <input class="clicky" id="focuss" type="text" placeholder="Enter Email" name="user" required autofocus><br>
+                <input class="clicky" id="focuss" type="text" placeholder="Enter Username" name="user" required autofocus><br>
 
                 <label class="clicky" for="email">Email</label>      
                 <input class="clicky" type="text" placeholder="Enter Email" name="email" required><br>
