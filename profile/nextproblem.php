@@ -57,6 +57,7 @@ if (isset($_POST['next-submit'])) {
                         $_SESSION['geoNumber'] = $row1['geo'];
                         $_SESSION['comboNumber'] = $row1['combo'];
                         $_SESSION['NTNumber'] = $row1['NT'];
+                        $_SESSION['score'] = $row1['alg'] + $row1['geo'] + $row1['combo'] + $row1['NT'] - 4;
                         unset($_SESSION['answer']);
                         unset($_SESSION['state']);
 
