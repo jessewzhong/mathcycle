@@ -5,15 +5,17 @@ This project is currently in progress. Please see http://mathcycle.epizy.com/mat
 
 **Currently Working On:** implementing practice module of profile, improving UI/UX, and embedding LaTeX in HTML
 
-## Updates as of 2/15/19
+## Updates as of 3/1/19
 * Profile displays total score as well as subject scores
 * Reformatted practice page for aesthetics
+* Congratulations page is live for section completion
 
-## Bugfixes as of 2/20/19
+## Bugfixes as of 3/1/19
 * Correct/incorrect message not resetting
 * Scrollbar images (+ all images) highlight upon spam-clicking
 * User practice status not updating
 * Scrollbar arrow click radius size is too large
+* Score not updating after completion of question
 
 ## Bugs/Design Choices
 * User status not updated unless **next** is pressed after submitting a correct answer
