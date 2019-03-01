@@ -33,17 +33,20 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
             </div>
         </div>
         <div class="body animated slow fadeIn">
-            <div class="large"></div>
+            <div class="large">Practice</div>
             <div class="medium" style="padding-top: 0">Congratulations, <?php echo $_SESSION['userUID'];?>!</div>
             <hr>
-            <p class="regular" style="padding-top: 1em">
+            <p class="regular" style="min-height: 25vh; padding-top: 1em;">
                 <span style="color: red"><b>You've done it!</b></span>
-                You've completed all of the problems of the <?php echo strolower($_SESSION['topic']);?> section! We hope that you've 
+                You've completed all of the problems of the <?php echo strtolower($_SESSION['topic']);?> section! We hope that you've 
                 learned a myriad of new techniques and concepts throughout the practice problems! If you haven't already, take a look at 
                 the problems of other subjects and try to complete those! Click 
                 <a href="../profile.php" style="color: red; text-decoration: none"><b>here</b></a> 
                 to return to your profile.
-                </p>
+            </p>
+            <div style="text-align: center">
+                    <a class="under" style="color: red; font-weight: bold; text-decoration: none" href="../profile.php"> &nbsp; back &nbsp; </span>
+                </div>
         </div>
         <div class="header" style="background-color: black; display: flex; align-items: baseline; justify-content: space-between">
             <div class="regular" style="color: white">Questions? Contact Us!</div>
