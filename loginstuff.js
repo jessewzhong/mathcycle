@@ -1,9 +1,9 @@
 function popUp() {
+    banana();
     toggleClick();
     var elem = document.getElementById("login");
     elem.style.visibility = "visible";
     aye(elem);
-    banana();
     var item = document.getElementById("focus");
     item.focus();
     document.addEventListener("keydown", press);
@@ -69,11 +69,11 @@ function toggleClick() {
 }
 
 function loadCreate() {
+    apple();
     toggleClick();
     var elem = document.getElementById("createlogin");
     elem.style.visibility = "visible";
     aye(elem);
-    apple();
     var item = document.getElementById("focuss");
     item.focus();
     setTimeout(() => document.addEventListener("keydown", press), 10);

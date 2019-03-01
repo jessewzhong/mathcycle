@@ -6,11 +6,14 @@ function banana() {
 
 function apple() {
     var elem = document.getElementById("createloginA");
-    var width = elem.getBoundingClientRect().width;
-    elem.style.width = width + "px";
+    elem.style.width = document.getElementById("loginA").getBoundingClientRect().width + "px";
 }
 
 function pineapple() {
     var elem = document.getElementById("logoutA");
     elem.style.width = document.getElementById("loginA").getBoundingClientRect().width + "px";
 }   
+
+banana();
+pineapple();
+apple();

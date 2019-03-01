@@ -566,7 +566,7 @@ session_start();
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
                 </p>
-                <div class="large clicky" style="text-align: center">Login</div>
+                <div class="large clicky" style="text-align: center">SUp</div>
         
                 <label class="clicky" for="user">Username</label>      
                 <input class="clicky" id="focuss" type="text" placeholder="Enter Email" name="user" required autofocus><br>
@@ -578,7 +578,7 @@ session_start();
                 <input class="clicky" type="password" placeholder="Enter Password" name="psw" required><br>
 
                 <label class="clicky" for="pswc">Confirm</label>
-                <input class="clicky" type="password" placeholder="Confirm Password" name="pswc" required>
+                <input class="clicky" type="password" placeholder="Co Password" name="pswc" required>
                 <div class="clicky" style="text-align: center; padding-bottom: 1em">
                         <button type="submit" class="under clicky" name="signup-submit" style="color: red; font-weight: bold;"> &nbsp; submit &nbsp; </button>
                 </div>
