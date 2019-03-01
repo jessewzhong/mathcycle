@@ -9,7 +9,7 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
 <html>
     <head>
         <meta charset = "UTF-8">
-        <title>Home</title>
+        <title>Practice</title>
         <meta name="author" content="Jesse Zhong">
         <link rel="stylesheet" href="../style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
