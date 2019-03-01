@@ -1,11 +1,11 @@
 # mathcycle
 Built with HTML, CSS, JavaScript, PHP, and SQL; run locally with XAMPP.
 
-**SITE IS NOW LIVE!**
+**SITE IS NOW LIVE AT MATHCYCLE.CO**
 
-This project is currently in progress. Please see <mathcycle.co> to see up-to-date site.
+This project is currently in progress. Please see https://mathcycle.co to see up-to-date site.
 
-**Currently Working On:** embedding LaTeX in HTML
+**Currently Working On:** embedding LaTeX in HTML, bugfixing 
 
 ## Updates as of 3/1/19
 * Profile displays total score as well as subject scores
