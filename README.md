@@ -1,7 +1,9 @@
 # mathcycle
 Built with HTML, CSS, JavaScript, PHP, and SQL; run locally with XAMPP.
 
-This project is currently in progress. Please see http://mathcycle.epizy.com/mathcycle/ to see up-to-date site.
+**SITE IS NOW LIVE!**
+
+This project is currently in progress. Please see https://mathcycle.co to see up-to-date site.
 
 **Currently Working On:** embedding LaTeX in HTML
 
@@ -9,6 +11,7 @@ This project is currently in progress. Please see http://mathcycle.epizy.com/mat
 * Profile displays total score as well as subject scores
 * Reformatted practice page for aesthetics
 * Congratulations page is live for section completion
+* **SITE IS NOW LIVE, SEE ABOVE**
 
 ## Bugfixes as of 3/1/19
 * Correct/incorrect message not resetting
