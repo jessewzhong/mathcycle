@@ -49,7 +49,7 @@ session_start();
             </p>    
         </div>
         <div class="header" style="background-color: black; display: flex; align-items: baseline; justify-content: space-between">
-            <div class="regular" style="color: white">Questions? Contact Us!</div>
+        <div class="regular" style="color: white">Questions? <a href="contact.php" style="color: red; text-decoration: none"><b>Contact Us!</b><a></div>
             <div style="display: inline-block; float: right">
                 <a class="title" href="index.php">
                 <span class="headertitlea">math</span><span class="headertitleb">cycle</span>
