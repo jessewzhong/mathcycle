@@ -54,7 +54,7 @@ session_start();
                     AIME, USAJMO, and many more. I am a dedicated teacher and math educator with years of tutoring, mentoring, and teaching experience. To this end, I've 
                     worked at numerous organizations such  Mathnasium, Awesome Math, and Idea Math, where I am currently an instructor year-round in New York City. My main 
                     area of expertise is geometry, but I hope you find all of the problems my team and I have written to be enjoyable and fascinating. If you have any 
-                    questions, don't hesitate to <a href="contact.html" style="text-decoration: none; color: red"><b>contact me</b></a>.
+                    questions, don't hesitate to <a href="contact.php" style="text-decoration: none; color: red"><b>contact me</b></a>.
                 </p>
             </div>
             <div style="text-align: center">
@@ -66,7 +66,7 @@ session_start();
                     AIME, USAJMO, and many more. I am a dedicated teacher and math educator with years of tutoring, mentoring, and teaching experience. To this end, I've 
                     worked at numerous organizations such  Mathnasium, Awesome Math, and Idea Math, where I am currently an instructor year-round in New York City. My main 
                     area of expertise is geometry, but I hope you find all of the problems my team and I have written to be enjoyable and fascinating. If you have any 
-                    questions, don't hesitate to <a href="contact.html" style="text-decoration: none; color: red"><b>contact me</b></a>.
+                    questions, don't hesitate to <a href="contact.php" style="text-decoration: none; color: red"><b>contact me</b></a>.
                 </p>
             </div>
             <div style="text-align: center">
@@ -78,12 +78,12 @@ session_start();
                     AIME, USAJMO, and many more. I am a dedicated teacher and math educator with years of tutoring, mentoring, and teaching experience. To this end, I've 
                     worked at numerous organizations such  Mathnasium, Awesome Math, and Idea Math, where I am currently an instructor year-round in New York City. My main 
                     area of expertise is geometry, but I hope you find all of the problems my team and I have written to be enjoyable and fascinating. If you have any 
-                    questions, don't hesitate to <a href="contact.html" style="text-decoration: none; color: red"><b>contact me</b></a>.
+                    questions, don't hesitate to <a href="contact.php" style="text-decoration: none; color: red"><b>contact me</b></a>.
                 </p>
             </div>
         </div>
         <div class="header" style="background-color: black; display: flex; align-items: baseline; justify-content: space-between">
-        <div class="regular" style="color: white">Questions? <a href="contact.php" style="color: red; text-decoration: none"><b>Contact Us!</b><a></div>
+            <div class="regular" style="color: white">Questions? <a href="contact.php" style="color: red; text-decoration: none"><b>Contact Us!</b><a></div>
             <div style="display: inline-block; float: right">
                 <a class="title" href="index.php">
                 <span class="headertitlea">math</span><span class="headertitleb">cycle</span>
