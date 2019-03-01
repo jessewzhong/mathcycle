@@ -3,7 +3,7 @@ Built with HTML, CSS, JavaScript, PHP, and SQL; run locally with XAMPP.
 
 **SITE IS NOW LIVE!**
 
-This project is currently in progress. Please see https://mathcycle.co to see up-to-date site.
+This project is currently in progress. Please see <mathcycle.co> to see up-to-date site.
 
 **Currently Working On:** embedding LaTeX in HTML
 
@@ -20,9 +20,10 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 * Scrollbar arrow click radius size is too large
 * Score not updating after completion of question
 
-## Bugs/Design Choices
+## Bugs/Design Choices (To Be Fixed)
 * User status not updated unless **next** is pressed after submitting a correct answer
 * Currently unable to access previously solved problems
+* Spam click of Math Evolved section not scripted
 
 ## Problem Pool
 * Targetting around 50 problems per subject in ascending difficulty
