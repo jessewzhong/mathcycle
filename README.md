@@ -13,12 +13,13 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 * Congratulations page is live for section completion
 * **SITE IS NOW LIVE, SEE ABOVE**
 
-## Bugfixes as of 3/1/19
+## Bugfixes as of 3/4/19
 * Correct/incorrect message not resetting
 * Scrollbar images (+ all images) highlight upon spam-clicking
 * User practice status not updating
 * Scrollbar arrow click radius size is too large
 * Score not updating after completion of question
+* Login system not working on mathcycle.co
 
 ## Bugs/Design Choices (To Be Fixed)
 * User status not updated unless **next** is pressed after submitting a correct answer
