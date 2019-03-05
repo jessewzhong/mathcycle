@@ -14,6 +14,12 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
         <link rel="stylesheet" href="../style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
         <link rel="stylesheet" href="../node_modules/animate.css/animate.css">
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+            });
+        </script>
     </head>
     <body> 
         <div class="top">
@@ -39,6 +45,7 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
             </div>
             <hr>
             <p class="regular" style="min-height: 25vh; padding-top: 1em;">
+                $ J(\theta) = \frac{1}{m} \sum^m_{i=1} Cost(h_\theta(x),y) $
                 <?php echo $_SESSION['text']; ?>
             </p>
             <?php if (isset($_SESSION['state']) && $_SESSION['state'] == "correct") { ?>
