@@ -45,7 +45,6 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
             </div>
             <hr>
             <p class="regular" style="min-height: 25vh; padding-top: 1em;">
-                $ J(\theta) = \frac{1}{m} \sum^m_{i=1} Cost(h_\theta(x),y) $
                 <?php echo $_SESSION['text']; ?>
             </p>
             <?php if (isset($_SESSION['state']) && $_SESSION['state'] == "correct") { ?>
