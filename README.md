@@ -21,6 +21,7 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 * Scrollbar arrow click radius size is too large
 * Score not updating after completion of question
 * Login system not working on mathcycle.co
+* Trailing directory slash on /profile/
 
 ## Bugs/Design Choices (To Be Fixed)
 * User status not updated unless **next** is pressed after submitting a correct answer
