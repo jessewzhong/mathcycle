@@ -1,0 +1,356 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-size: 100%;
+    font-family: Montserrat, sans-serif;
+}
+
+/* entire top thing */
+.top {
+    z-index: 2;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* for mathcycle text*/
+.header {
+    display: inline-block;
+    padding: 0.5em 20vw;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.headertitlea {
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.headertitleb {
+    color: red;
+    font-size: 3em;
+    transition: 0.5s;
+}
+
+a.title:hover .headertitlea {
+    color: red;
+}
+
+a.title:hover .headertitleb {
+    color: white;
+}
+
+a.title {
+    text-decoration: none;
+    display: block;
+}
+
+/* sets navbar stuff*/
+ul {
+    position: relative; 
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20vw;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+
+/* links in navbar*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 1s;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(228, 68, 68);
+}
+
+/* for active page */
+.active {
+    background-color: #898585;
+}
+
+.body {
+    min-height: 80vh;
+    padding: 10vh 20vw;
+    font-size: 100%;
+}
+
+.extralarge {
+    font-size: 5em;
+    padding-bottom: 1em;
+    color: red;
+}
+
+.large {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.medium {
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+p.regular {
+    font-size: 1em;
+    margin: 0 0;
+    padding-bottom: 1em;
+}
+
+.right p {
+    text-align: right;
+}
+
+.gradient {
+    background: -webkit-linear-gradient(black, rgba(0, 0, 0, 0));
+    clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gridbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    padding: 1%;
+    width: 48%;
+}
+
+.grid2 {
+    padding: 1%;
+    width: 23%;
+}
+
+.grid img, .grid2 img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    border: solid;
+    border-width: 1px;
+    margin: 0;
+    margin-bottom: 0.5em;
+    border-color: red;
+}
+
+.click {
+    width: 100%; 
+    height: 100%;  
+    z-index: 1; 
+    cursor: pointer;
+}
+
+.left { 
+    position: absolute;
+    transition-duration: 1s;
+    width: 100%;
+    height: 100%;
+}
+
+/* prevents highlight on spam click */
+.sbar img {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* prevents highlight on spam click */
+img {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* prevents highlight on spam click */
+.RL {
+    content:url("./pictures/arrow.svg");
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.smol {
+    width: calc(0.75vw - 2px);
+    height: calc(0.75vw - 2px);
+    background-color: white;
+    border: 1px solid black;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./pictures/geometric.jpg');
+    margin: 0 -20vw;
+    min-height: 400px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.disp {
+    display: inline-block; 
+    color: black; 
+    padding: 0; 
+    cursor: pointer
+}
+
+.redback {
+    /*
+    background-image: url(./pictures/redgeometric.jpg);
+    background-position: bottom;
+    background-size: cover;
+    */
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: red;
+}
+
+.hide {
+    opacity: 0;
+    transition-duration: 1.5s;
+    cursor: default;
+}
+
+p.slide {
+    padding: 0;
+    overflow: hidden;
+    transition-duration: 1.5s;
+    position: absolute;
+    bottom: 100%;
+    opacity: 0;
+}
+
+.slidebutton {
+    content:url("./pictures/downarrow.png");
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain
+}
+
+.contests {
+    margin-left: 2.5%; 
+    padding-left: 2.5%; 
+    border-left-style: solid; 
+    border-left-width: 1px
+}
+
+.faded {
+    opacity: 0.2;
+}
+
+input, textarea, label select, button { font-family : inherit; font-size: inherit; }
+
+input[placeholder] {
+    padding-left: 5%;
+}
+
+input.centered[placeholder] {
+    padding-left: 0;
+}
+
+label {
+    padding-bottom: 10px;
+}
+input {
+    margin-top: 0.25em;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey
+}
+input:focus {
+    border-color: red;
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#login, #createlogin, #logout {
+    opacity: 0;
+    visibility: hidden; 
+    position: fixed; 
+    padding: 1%; 
+    border: red solid 1px; 
+    background-color: white; 
+    outline: 9999px solid rgba(0,0,0,0.5);
+    transition: opacity 1s;
+}
+
+#account {
+    color: red; 
+    font-weight: bold; 
+    cursor: pointer;
+}
+
+.under:hover {
+    border-left: solid red 1px;
+    border-right: solid red 1px;
+}
+
+button {
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer; 
+    background-color:white
+}
+
+button:active {
+    outline: none;
+}
+
+button.subject {
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding-bottom: 1rem;
+}
+
+button.subject:hover {
+    color: red;
+    font-size: 2em;
+}

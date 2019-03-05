@@ -14,12 +14,6 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
         <link rel="stylesheet" href="../style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
         <link rel="stylesheet" href="../node_modules/animate.css/animate.css">
-        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
-        <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({
-            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-            });
-        </script>
     </head>
     <body> 
         <div class="top">
@@ -40,37 +34,17 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
         </div>
         <div class="body animated slow fadeIn">
             <div class="large">Practice</div>
-            <div class="medium" style="padding-top: 0">
-                <?php echo "<b>".$_SESSION['topic'].":</b>"." <i>Problem ".mb_substr($_SESSION['topic'], 0, 1).$_SESSION['number']."</i>";?>
-            </div>
+            <div class="medium" style="padding-top: 0">Congratulations, <?php echo $_SESSION['userUID'];?>!</div>
             <hr>
             <p class="regular" style="min-height: 25vh; padding-top: 1em;">
-                $ J(\theta) = \frac{1}{m} \sum^m_{i=1} Cost(h_\theta(x),y) $
-                <?php echo $_SESSION['text']; ?>
+                <span style="color: red"><b>You've done it!</b></span>
+                You've completed all of the problems of the <?php echo strtolower($_SESSION['topic']);?> section! We hope that you've 
+                learned a myriad of new techniques and concepts throughout the practice problems! If you haven't already, take a look at 
+                the problems of other subjects and try to complete those! Click 
+                <a href="../profile.php" style="color: red; text-decoration: none"><b>here</b></a> 
+                to return to your profile.
             </p>
-            <?php if (isset($_SESSION['state']) && $_SESSION['state'] == "correct") { ?>
-                <p class="regular" style="text-align: center; color: green"><b><?php echo $_SESSION['answer'] ?></b> was the correct answer!</p> 
-                <div style="text-align: center">
-                    <form action="nextproblem.php" method="post" style="display: inline-block;">     
-                        <button type="submit" class="under" name="next-submit" style="color: red; font-weight: bold;">  
-                            <b> &nbsp; next &nbsp; </b>
-                        </button>
-                    </form>
-                </div>
-            <?php } else if (isset($_SESSION['state']) && $_SESSION['state'] == "wrong") { ?>
-                <p class="regular" style="text-align: center; color: red">Incorrect! Try again.</p> 
-            <?php } ?>
-            <?php if (isset($_SESSION['state']) == false || $_SESSION['state'] == "wrong") { ?>
-                <div style="text-align: center">
-                    <form action="problemcheck.php" method="post" style="display: inline-block; width: 20%">     
-                        <input type="text" class="centered" placeholder="Answer" name="answer" required style="width: 50%; text-align: center; padding-right: 0"><br>
-                        <button type="submit" class="under" name="answer-submit" style="color: red; font-weight: bold;">  
-                            <b> &nbsp; submit &nbsp; </b>
-                        </button>
-                    </form>
-                </div>
-            <?php } ?>
-            <div style="text-align: center; padding-top: 1em">
+            <div style="text-align: center">
                 <a class="under" style="color: red; font-weight: bold; text-decoration: none" href="../profile.php"> &nbsp; back &nbsp; </span></a>
             </div>
         </div>
