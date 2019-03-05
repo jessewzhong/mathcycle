@@ -57,7 +57,7 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
             </div>
         </div>
         <div id="login" class="center clicky">
-            <img id="exit" src="./pictures/exit.png" style="width: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
+            <img id="exit" src="../pictures/exit.png" style="width: 5%; margin: 1%; cursor: pointer; position: absolute; top: 0; right: 0">
             <form class="clicky" id="loginA" action="login.php" method="post">
                 <p class="regular clicky">
                     <b class="clicky">math</b><span class="clicky" style="color: red">cycle</span>
