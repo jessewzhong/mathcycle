@@ -5,6 +5,16 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+@font-face {
+    font-family: "STIX";
+    src: url("STIX2Text-Regular.otf") format("woff2");
+}
+
+.math {
+    font-family: STIX, serif;
+}
+  
+
 /* entire top thing */
 .top {
     z-index: 2;
