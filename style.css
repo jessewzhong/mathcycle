@@ -7,11 +7,12 @@ body {
 
 @font-face {
     font-family: "STIX";
-    src: url("STIX2Text-Regular.otf") format("woff2");
+    src: url("MathJax_SansSerif-Regular.otf") format("woff2");
 }
 
-.math {
+#math {
     font-family: STIX, serif;
+    font-size: 1.5rem;
 }
   
 
