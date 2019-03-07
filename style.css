@@ -6,16 +6,15 @@ body {
 }
 
 @font-face {
-    font-family: "STIX";
-    src: url("MathJax_SansSerif-Regular.otf") format("woff2");
+    font-family: "JAX";
+    src: url("fonts/MathJax_Main-Regular.otf");
 }
 
 #math {
-    font-family: STIX, serif;
+    font-family: JAX, serif;
     font-size: 1.5rem;
 }
   
-
 /* entire top thing */
 .top {
     z-index: 2;

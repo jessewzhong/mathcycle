@@ -38,9 +38,9 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
             <hr>
             <p class="regular" style="min-height: 25vh; padding-top: 1em;">
                 <span style="color: red"><b>You've done it!</b></span>
-                You've completed all of the problems of the <?php echo strtolower($_SESSION['topic']);?> section! We hope that you've 
-                learned a myriad of new techniques and concepts throughout the practice problems! If you haven't already, take a look at 
-                the problems of other subjects and try to complete those! Click 
+                You've completed all of the problems of the <span style="color: red"><?php echo strtolower($_SESSION['topic']);?></span> section! 
+                We hope that you've learned a myriad of new techniques and concepts throughout the practice problems! If you haven't already, take 
+                a look at the problems of other subjects and try to complete those! Click 
                 <a href="../profile.php" style="color: red; text-decoration: none"><b>here</b></a> 
                 to return to your profile.
             </p>
