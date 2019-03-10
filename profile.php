@@ -136,9 +136,9 @@ if (isset($_SESSION['userID']) == false) {
                 </div>
             </form>
         </div>
-        <script src="contestsadjustpadding.js"></script>
-        <script src="maintainwidth.js"></script>
-        <script src="loginstuff.js"></script>
-        <script src="logoutstuff.js"></script>
+        <script src="scripts/contestsadjustpadding.js"></script>
+        <script src="scripts/maintainwidth.js"></script>
+        <script src="scripts/loginstuff.js"></script>
+        <script src="scripts/logoutstuff.js"></script>
     </body>
 </html>

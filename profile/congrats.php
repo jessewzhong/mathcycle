@@ -99,8 +99,8 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
                 </div>
             </form>
         </div>
-        <script src="../maintainwidth.js"></script>
-        <script src="../loginstuff.js"></script>
-        <script src="../logoutstuff.js"></script>
+        <script src="../scripts/maintainwidth.js"></script>
+        <script src="../scripts/loginstuff.js"></script>
+        <script src="../scripts/logoutstuff.js"></script>
     </body>
 </html>

@@ -603,13 +603,13 @@ session_start();
                 </div>
             </form>
         </div>
-        <script src="slidebar.js"></script>
-        <script src="display.js"></script>
-        <script src="slidedown.js"></script>
-        <script src="samewidth.js"></script>
-        <script src="contestsadjustpadding.js"></script>
-        <script src="loginstuff.js"></script>
-        <script src="logoutstuff.js"></script>
-        <script src="maintainwidth.js"></script>
+        <script src="scripts/slidebar.js"></script>
+        <script src="scripts/display.js"></script>
+        <script src="scripts/slidedown.js"></script>
+        <script src="scripts/samewidth.js"></script>
+        <script src="scripts/contestsadjustpadding.js"></script>
+        <script src="scripts/loginstuff.js"></script>
+        <script src="scripts/logoutstuff.js"></script>
+        <script src="scripts/maintainwidth.js"></script>
     </body>
 </html>
