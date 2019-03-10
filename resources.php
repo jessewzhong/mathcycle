@@ -41,6 +41,16 @@ session_start();
                 from high school competitions to theory and research. Below, you will find resources of every kind, inclduing lists of numerous summer programs for 
                 mathematical growth and edification as well as renowned math contests around the globe. 
             </p>
+            <div class="medium">Handouts</div>
+            <hr style="background-color: red">
+            <p class="regular">
+                Below are two resources compiled from Competition Math Class, an initiative to teach problem-solving skills to students of all levels in the 
+                Dallas-Fort Worth area that Jesse Zhong co-founded in 2015. The first file contains an aggregate of multiple lectures throughout the years, covering 
+                topics across numerous areas, as well as many accompanying problem sets. The second file contains a compilation of all the weekly problems posted on 
+                the website throughout the years.
+            </p>
+            <a style="color: red; text-decoration: none; display: block; margin-bottom: 1em" href="files/lectures.pdf" target="_blank"><b>Lectures</b></a>
+            <a style="color: red; text-decoration: none; display: block; margin-bottom: 1em" href="files/problems.pdf" target="_blank"><b>Problems</b></a>
             <div class="medium">Websites</div>
             <hr style="background-color: red">
             <div class="gridbox">
