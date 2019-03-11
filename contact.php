@@ -42,8 +42,9 @@ session_start();
             </p>
             <p class="regular" style="text-align: center">
                 <a style="text-decoration: none; color: black" href="mailto: jwz2111@columbia.edu" target="_blank">
-                    <b>jwz2111<span style="color: red">@</span>columbia.edu</b></p>
+                    <b>jwz2111<span style="color: red">@</span>columbia.edu</b>
                 </a>
+            </p>
             <p class="regular">
                 In addition, we are always looking for more problems and ideas to add to our database, especially those with originality that have not appeared 
                 in contests or other online resources. If you wish to contribute, please send LaTeXed problems and solutions to the email above, and we will be sure to credit 
