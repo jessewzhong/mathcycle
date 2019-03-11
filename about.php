@@ -43,32 +43,11 @@ session_start();
                 math is not restricted from anyone. Approachable to anyone, we hope to instill a greater appreciation of the sheer grandeur of math and reveal innumerous 
                 possibilities to each and every user.
             </p>
+            <p class="regular">We would also like to thank individuals who helped compose and proofread the problems available in the practice module, including Dylan Liu, 
+                Kevin Feng, Albert Luo, and Nicholas Tsao.
+            </p>
             <div class="medium">Team</div>
             <hr>  
-            <div style="text-align: center">
-                <div class="medium">Jesse Zhong</div>
-                <div class="medium" style="font-size: 1.5em; padding-top: 0"><i>Founder and Developer</i></div>  
-                <img src="./pictures/team1.jpg" style="width: 25%; object-fit: contain">
-                <p class="regular">Hi! I'm Jesse, and I'm current freshman at Columbia University pursuing a double major in Mathematics and Computer Science. As an avid 
-                    enthusiast of math contests since middle school, I've had a plethora of compeition experience, participating in contests such as Mathcounts, ARML, HMMT, 
-                    AIME, USAJMO, and many more. I am a dedicated teacher and math educator with years of tutoring, mentoring, and teaching experience. To this end, I've 
-                    worked at numerous organizations such  Mathnasium, Awesome Math, and Idea Math, where I am currently an instructor year-round in New York City. My main 
-                    area of expertise is geometry, but I hope you find all of the problems my team and I have written to be enjoyable and fascinating. If you have any 
-                    questions, don't hesitate to <a href="contact.php" style="text-decoration: none; color: red"><b>contact me</b></a>.
-                </p>
-            </div>
-            <div style="text-align: center">
-                <div class="medium">Jesse Zhong</div>
-                <div class="medium" style="font-size: 1.5em; padding-top: 0"><i>Founder and Developer</i></div>  
-                <img src="./pictures/team1.jpg" style="width: 25%; object-fit: contain">
-                <p class="regular">Hi! I'm Jesse, and I'm current freshman at Columbia University pursuing a double major in Mathematics and Computer Science. As an avid 
-                    enthusiast of math contests since middle school, I've had a plethora of compeition experience, participating in contests such as Mathcounts, ARML, HMMT, 
-                    AIME, USAJMO, and many more. I am a dedicated teacher and math educator with years of tutoring, mentoring, and teaching experience. To this end, I've 
-                    worked at numerous organizations such  Mathnasium, Awesome Math, and Idea Math, where I am currently an instructor year-round in New York City. My main 
-                    area of expertise is geometry, but I hope you find all of the problems my team and I have written to be enjoyable and fascinating. If you have any 
-                    questions, don't hesitate to <a href="contact.php" style="text-decoration: none; color: red"><b>contact me</b></a>.
-                </p>
-            </div>
             <div style="text-align: center">
                 <div class="medium">Jesse Zhong</div>
                 <div class="medium" style="font-size: 1.5em; padding-top: 0"><i>Founder and Developer</i></div>  
