@@ -84,7 +84,7 @@ else if (isset($_POST['geo-submit'])) {
                     exit();
                 }
                 else {
-                    $var = "alg";
+                    $var = "geo";
                     mysqli_stmt_bind_param($stmt1, "si", $var, $i);
                     mysqli_stmt_execute($stmt1);
                     $result1 = mysqli_stmt_get_result($stmt1);
@@ -138,7 +138,7 @@ else if (isset($_POST['combo-submit'])) {
                     exit();
                 }
                 else {
-                    $var = "alg";
+                    $var = "combo";
                     mysqli_stmt_bind_param($stmt1, "si", $var, $i);
                     mysqli_stmt_execute($stmt1);
                     $result1 = mysqli_stmt_get_result($stmt1);
@@ -192,7 +192,7 @@ else if (isset($_POST['NT-submit'])) {
                     exit();
                 }
                 else {
-                    $var = "alg";
+                    $var = "NT";
                     mysqli_stmt_bind_param($stmt1, "si", $var, $i);
                     mysqli_stmt_execute($stmt1);
                     $result1 = mysqli_stmt_get_result($stmt1);
