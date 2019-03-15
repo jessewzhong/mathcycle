@@ -7,13 +7,14 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 
 **Currently Working On:** embedding LaTeX in HTML, bugfixing 
 
-## Updates as of 3/5/19
+## Updates as of 3/15/19
 * Profile displays total score as well as subject scores
 * Reformatted practice page for aesthetics
 * Congratulations page is live for section completion
 * **SITE IS NOW LIVE, SEE ABOVE**
 * LaTeX math equations implemented
 * Font for math equations normalized
+* Review section implemented!
 
 ## Bugfixes as of 3/4/19
 * Correct/incorrect message not resetting
@@ -28,6 +29,7 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 * User status not updated unless **next** is pressed after submitting a correct answer
 * Currently unable to access previously solved problems
 * Spam click of Math Evolved section not scripted
+* Expanding names of Review/Practice shifting other items down
 
 ## Problem Pool
 * Targetting around 50 problems per subject in ascending difficulty
