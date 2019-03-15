@@ -88,28 +88,28 @@ if (isset($_SESSION['userID']) == false) {
             <hr>
             <div class="contests" style="display: table">
                 <div> 
-                    <form action="problemqueue.php" method="post">
+                    <form action="reviewqueue.php" method="post">
                         <button type="submit" name="alg-submit" class="regular subject">  
                             <b>Algebra</b>
                         </button>
                     </form>
                 </div>  
                 <div>
-                    <form action="problemqueue.php" method="post">
+                    <form action="reviewqueue.php" method="post">
                         <button type="submit" name="geo-submit" class="regular subject">  
                             <b>Geometry</b>
                         </button>
                     </form>
                 </div>  
                 <div>
-                    <form action="problemqueue.php" method="post">
+                    <form action="reviewqueue.php" method="post">
                         <button type="submit" name="combo-submit" class="regular subject">  
                             <b>Combinatorics</b>
                         </button>
                     </form>
                 </div>  
                 <div>
-                    <form action="problemqueue.php" method="post">
+                    <form action="reviewqueue.php" method="post">
                         <button type="submit" name="NT-submit" class="regular subject">  
                             <b>Number Theory</b>
                         </button>
