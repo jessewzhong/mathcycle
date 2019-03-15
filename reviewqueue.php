@@ -20,6 +20,10 @@ if (isset($_POST['alg-submit'])) {
             $_SESSION['topic'] = "Algebra";
             $_SESSION['number'] = $_SESSION['algNumber'];
 
+            $_SESSION['review'] = array();
+
+            for ($i = )
+
             header("Location: ./profile/review.php?alg");
             exit();
         }
