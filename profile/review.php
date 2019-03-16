@@ -48,8 +48,14 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
                         <?php echo "<i>Problem ".mb_substr($_SESSION['topic'], 0, 1).$i."</i>";?>
                     </div>
                     <hr>
-                    <p class="regular" id="math" style="padding-top: 1em; padding-bottom: 2em">
+                    <p class="regular" id="math" style="padding-top: 1em; padding-bottom: 1em">
                         <?php echo $_SESSION['review'][$i - 1]; ?>
+                    </p>
+                    <p class="regular review">
+                        <span style="color: red"><b>Answer:</b></span>
+                        <?php
+                            echo "<span>".$_SESSION['revans'][$i - 1]."</span>"
+                        ?>
                     </p>
                 <?php }
                 ?>

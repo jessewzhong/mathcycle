@@ -21,6 +21,7 @@ if (isset($_POST['alg-submit'])) {
             $_SESSION['number'] = $_SESSION['algNumber'];
 
             $_SESSION['review'] = array();
+            $_SESSION['revans'] = array();
 
             for ($i = 1; $i <= $_SESSION['number'] - 1; $i++) {
                 $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
@@ -36,6 +37,7 @@ if (isset($_POST['alg-submit'])) {
                     $result1 = mysqli_stmt_get_result($stmt1);
                     if ($row1 = mysqli_fetch_assoc($result1)) {
                         array_push($_SESSION['review'], $row1['text']);
+                        array_push($_SESSION['revans'], $row1['answer']);
                     }
                     else {   
                         header("Location: ./profile.php?error=sqlerror");
@@ -75,6 +77,7 @@ else if (isset($_POST['geo-submit'])) {
             $_SESSION['number'] = $_SESSION['geoNumber'];
 
             $_SESSION['review'] = array();
+            $_SESSION['revans'] = array();
 
             for ($i = 1; $i <= $_SESSION['number'] - 1; $i++) {
                 $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
@@ -90,6 +93,7 @@ else if (isset($_POST['geo-submit'])) {
                     $result1 = mysqli_stmt_get_result($stmt1);
                     if ($row1 = mysqli_fetch_assoc($result1)) {
                         array_push($_SESSION['review'], $row1['text']);
+                        array_push($_SESSION['revans'], $row1['answer']);
                     }
                     else {   
                         header("Location: ./profile.php?error=sqlerror");
@@ -129,6 +133,7 @@ else if (isset($_POST['combo-submit'])) {
             $_SESSION['number'] = $_SESSION['comboNumber'];
 
             $_SESSION['review'] = array();
+            $_SESSION['revans'] = array();
 
             for ($i = 1; $i <= $_SESSION['number'] - 1; $i++) {
                 $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
@@ -144,6 +149,7 @@ else if (isset($_POST['combo-submit'])) {
                     $result1 = mysqli_stmt_get_result($stmt1);
                     if ($row1 = mysqli_fetch_assoc($result1)) {
                         array_push($_SESSION['review'], $row1['text']);
+                        array_push($_SESSION['revans'], $row1['answer']);
                     }
                     else {   
                         header("Location: ./profile.php?error=sqlerror");
@@ -183,6 +189,7 @@ else if (isset($_POST['NT-submit'])) {
             $_SESSION['number'] = $_SESSION['NTNumber'];
 
             $_SESSION['review'] = array();
+            $_SESSION['revans'] = array();
 
             for ($i = 1; $i <= $_SESSION['number'] - 1; $i++) {
                 $sql1 = "SELECT * FROM problems WHERE type=? AND number=?";
@@ -198,6 +205,7 @@ else if (isset($_POST['NT-submit'])) {
                     $result1 = mysqli_stmt_get_result($stmt1);
                     if ($row1 = mysqli_fetch_assoc($result1)) {
                         array_push($_SESSION['review'], $row1['text']);
+                        array_push($_SESSION['revans'], $row1['answer']);
                     }
                     else {   
                         header("Location: ./profile.php?error=sqlerror");

@@ -364,3 +364,8 @@ button.subject:hover {
     color: red;
     font-size: 2em;
 }
+
+p.review {
+    font-size: 1rem;
+    padding-bottom: 2em;
+}
