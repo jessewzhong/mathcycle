@@ -45,16 +45,16 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
                 for ($i = 1; $i <= $_SESSION['number'] - 1; $i++) {
                     ?>
                     <div class="medium" style="padding-top: 0">
-                        <?php echo "<i>Problem ".mb_substr($_SESSION['topic'], 0, 1).$i."</i>";?>
+                        <?php echo "<i><b>Problem ".mb_substr($_SESSION['topic'], 0, 1).$i."</b></i>";?>
                     </div>
                     <hr>
                     <p class="regular" id="math" style="padding-top: 1em; padding-bottom: 1em">
                         <?php echo $_SESSION['review'][$i - 1]; ?>
                     </p>
                     <p class="regular review">
-                        <span style="color: red"><b>Answer:</b></span>
+                        <span style="color: red">Answer: </span>
                         <?php
-                            echo "<span>".$_SESSION['revans'][$i - 1]."</span>"
+                            echo "<span id='math'>".$_SESSION['revans'][$i - 1]."</span>"
                         ?>
                     </p>
                 <?php }
