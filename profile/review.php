@@ -45,7 +45,7 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
                 for ($i = 1; $i <= $_SESSION['number'] - 1; $i++) {
                     ?>
                     <div class="medium" style="padding-top: 0">
-                        <?php echo "<b>".$_SESSION['topic'].":</b>"." <i>Problem ".mb_substr($_SESSION['topic'], 0, 1).$i."</i>";?>
+                        <?php echo "<i>Problem ".mb_substr($_SESSION['topic'], 0, 1).$i."</i>";?>
                     </div>
                     <hr>
                     <p class="regular" id="math" style="padding-top: 1em; padding-bottom: 2em">
