@@ -36,6 +36,10 @@ if (isset($_SESSION['userID']) == false) {
             <div class="large">Profile</div>
             <div class="medium" style="padding-top: 0">Welcome, <?php echo $_SESSION['userUID'];?>!</div>
             <hr>
+            <p class="regular">Thanks for using <b>math</b><span style="color: red">cycle</span>! Your statistics are below, so you can easily 
+                track your progress. Browse the <span style="color: red"><b>practice</b></span> section to solve some cool, original problems. If you 
+                want to look over the problems you've already solved, check out the <span style="color: red"><b>review</b></span> section. Good luck!
+            </p>
             <p class="regular"><span style="color: red"><b>Your ID:</b></span> <?php echo sprintf('%04u', $_SESSION['userID']);?></p>
             <p class="regular"><span style="color: red"><b>Your Score:</b></span> <?php echo sprintf('%04u', $_SESSION['score']);?></p>
             <div class="contests">
