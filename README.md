@@ -5,9 +5,9 @@ Built with HTML, CSS, JavaScript, PHP, and SQL; run locally with XAMPP.
 
 This project is currently in progress. Please see https://mathcycle.co to see up-to-date site.
 
-**Currently Working On:** embedding LaTeX in HTML, bugfixing 
+**Currently Working On:** bugfixing, improving UI, tutorial
 
-## Updates as of 3/15/19
+## Updates as of 3/19/19
 * Profile displays total score as well as subject scores
 * Reformatted practice page for aesthetics
 * Congratulations page is live for section completion
@@ -15,6 +15,7 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 * LaTeX math equations implemented
 * Font for math equations normalized
 * Review section implemented!
+* Answers are now hidden on review load
 
 ## Bugfixes as of 3/4/19
 * Correct/incorrect message not resetting
