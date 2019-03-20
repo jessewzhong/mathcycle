@@ -376,7 +376,7 @@ p.review {
 
 .revdisp {
     opacity: 0;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .nohi {

@@ -7,11 +7,11 @@ function revdisplay(elem) {
     if (nextList[temp].style.opacity === "0" || nextList[temp].style.opacity === "") {
         nextList[temp].style.opacity = "1";
         nextList[temp].style.cursor = "auto";
-        setTimeout(function () {elem.style.pointerEvents = "auto"}, 1000);
+        setTimeout(function () {elem.style.pointerEvents = "auto"}, 500);
     }
     else {
         nextList[temp].style.opacity = "0";
         nextList[temp].style.cursor = "default";
-        setTimeout(function () {elem.style.pointerEvents = "auto"}, 1000);
+        setTimeout(function () {elem.style.pointerEvents = "auto"}, 500);
     }
 }
