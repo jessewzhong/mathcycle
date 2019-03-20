@@ -372,19 +372,17 @@ p.review {
 
 .revclick {
     cursor: pointer;
-    -khtml-user-select: none;
-    -o-user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
 }
 
 .revdisp {
     opacity: 0;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
+}
+
+.nohi {
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
-    user-select: none;
+    user-select: none; 
 }

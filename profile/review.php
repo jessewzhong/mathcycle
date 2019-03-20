@@ -52,9 +52,9 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
                         <?php echo $_SESSION['review'][$i - 1]; ?>
                     </p>
                     <p class="regular review">
-                        <span class="revclick" style="color: red" onclick="revdisplay(this)">Answer: </span>
+                        <span style="cursor: pointer"><span class="revclick nohi" style="color: red" onclick="revdisplay(this)">Answer: </span></span>
                         <?php
-                            echo "<span class='revdisp' id='math'>".$_SESSION['revans'][$i - 1]."</span>"
+                            echo "<span class='revdisp nohi' id='math'>".$_SESSION['revans'][$i - 1]."</span>"
                         ?>
                     </p>
                 <?php }
@@ -62,7 +62,7 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
             </div>
 
             <div style="text-align: center; padding-top: 1em">
-                <a class="under" style="color: red; font-weight: bold; text-decoration: none" href="../profile.php"> &nbsp; back &nbsp; </span></a>
+                <a class="under nohi" style="color: red; font-weight: bold; text-decoration: none" href="../profile.php"> &nbsp; back &nbsp; </span></a>
             </div>
         </div>
         <div class="header" style="background-color: black; display: flex; align-items: baseline; justify-content: space-between">
