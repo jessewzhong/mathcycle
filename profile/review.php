@@ -52,9 +52,9 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
                         <?php echo $_SESSION['review'][$i - 1]; ?>
                     </p>
                     <p class="regular review">
-                        <span style="color: red">Answer: </span>
+                        <span class="revclick" style="color: red" onclick="revdisplay(this)">Answer: </span>
                         <?php
-                            echo "<span id='math'>".$_SESSION['revans'][$i - 1]."</span>"
+                            echo "<span class='revdisp' id='math'>".$_SESSION['revans'][$i - 1]."</span>"
                         ?>
                     </p>
                 <?php }
@@ -119,5 +119,6 @@ if (isset($_SESSION['userID']) == false || isset($_SESSION['number']) == false) 
         <script src="../scripts/maintainwidth.js"></script>
         <script src="../scripts/loginstuff.js"></script>
         <script src="../scripts/logoutstuff.js"></script>
+        <script src="../scripts/reviewdisplay.js"></script>
     </body>
 </html>
