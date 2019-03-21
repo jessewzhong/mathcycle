@@ -115,4 +115,4 @@ All the problems in the selected subject area that you've completed will appear 
 ### Logout Steps
 Logging out is as simple as it can be! Simply click the logout button at the right of the nav bar, and the logout prompt will fade in to whatever page you are currently on. 
 
-<ing width="100%" src="./tutorial/logout.png">
+<img width="100%" src="./tutorial/logout.png">
