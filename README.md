@@ -37,11 +37,15 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 * Including original problems and selected ones from previous contests
 
 ## Compatibility
- Chrome desktop compatibility is live; I am working on Firefox, IE, Safari, etc. Mobile compatibility not optimizied.
+Chrome desktop compatibility is live; I am working on Firefox, IE, Safari, etc. Mobile compatibility not optimizied.
 
 ## Author
 Jesse Zhong
 
 ## Tutorial
-* coming soon!
-<img width="50%" src="./pictures/geo1.png">
+Welcome to the tutorial! We will walk through the major features of the website in the following paragraphs.
+
+### Home Page
+<img width="50%" src="./tutorial/home.png">
+At the top, there is a fading list of various definitions of cycles throughout mathematics
+
