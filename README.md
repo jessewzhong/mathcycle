@@ -44,4 +44,4 @@ Jesse Zhong
 
 ## Tutorial
 * coming soon!
-<img src="./pictures/geo1.jpg">
+<img src="./pictures/geo1.png">
