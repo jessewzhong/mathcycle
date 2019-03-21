@@ -117,3 +117,5 @@ All the problems in the selected subject area that you've completed will appear 
 Logging out is as simple as it can be! Simply click the **logout** button at the right of the nav bar, and the logout prompt will fade in to whatever page you are currently on. 
 
 <img width="100%" src="./tutorial/logout.png">
+
+### That's it! Thank you for using mathcycle!
