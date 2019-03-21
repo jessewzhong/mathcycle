@@ -48,8 +48,7 @@ Welcome to the tutorial! We will walk through the major features of the website 
 ### Home Page
 <img width="100%" src="./tutorial/home.png">
 
+At the top, there is a fading list of various definitions of cycles throughout mathematics. Next, there is an interactive sliding component that scrolls through current contests that, upon being clicked on, link to their web pages. 
 
-
-
-At the top, there is a fading list of various definitions of cycles throughout mathematics
+Next
 
