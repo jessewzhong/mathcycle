@@ -79,3 +79,12 @@ Then, either enter your credentials, or click through to the sign up page, where
 Upon signing up successfully, you will be redirected to the home page. And when you login, you will have access to the member-only resources at mathcycle. The profile tab and logout button will now appear at the top of the nav bar:
 
 <img width="100%" src="./tutorial/loggedin.png">
+
+### Profile Page
+Clicking the profile button in the nav bar brings you to the main page of registered users at mathcycle. You will be able to see your total score (problems solved), as well as individual subject scores.
+
+<img width="100%" src="./tutorial/profile.png">
+
+In the practice section, you will enter the practice module upon clicking on a subject name, bringing you to the next problem not yet solved in that respective area or the congratulations page if you've completed all the problems. By clicking on a topic in the review section, you will be brought to a page with all the problems you've solved in this subject.
+
+<img width="100%" src="./tutorial/profile1.png">
