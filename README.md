@@ -64,6 +64,15 @@ Next, there are three main parallax sections:
 
 ### Resources Page
 The resources page contains an array of varioius online resources with accompanying links, as well as two handouts/PDFs of original content that I authored along with other math team members in high school.
-<img width="100%" src="./tutorial/resources.png">
-                            
 
+<img width="100%" src="./tutorial/resources.png">
+
+### Login Steps
+When you click the login button from any of the pages on the site, a login page will fade in: 
+<img width="100%" src="./tutorial/login.png">
+
+Then, either enter your credentials, or click through to the sign up page, where a new page will fade in:
+<img width="100%" src="./tutorial/signup.png">
+
+Upon signing up successfully, you will be redirected to the home page. And when you login, you will have access to the member-only resources at mathcycle. The profile tab and logout button will now appear at the top of the nav bar"
+<img width="100%" src="./tutorial/loggedin.png">
