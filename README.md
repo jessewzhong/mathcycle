@@ -46,6 +46,6 @@ Jesse Zhong
 Welcome to the tutorial! We will walk through the major features of the website in the following paragraphs.
 
 ### Home Page
-<img width="50%" src="./tutorial/home.png">
+<img width="100%" src="./tutorial/home.png">
 At the top, there is a fading list of various definitions of cycles throughout mathematics
 
