@@ -102,7 +102,12 @@ Correct:
 
 <img width="100%" src="./tutorial/practice2.png">
 
+Congratulations:
 
+<img width="100%" src="./tutorial/practice3.png">
 
+## Review Page
+All the problems in the selected subject area that you've completed will appear here in sequential order, and upon clicking on the answer buttons, the answer to the corresponding question will appear/disappear. 
 
-
+<img width="100%" src="./tutorial/review.png">
+<img width="100%" src="./tutorial/review1.png">
