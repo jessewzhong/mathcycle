@@ -88,3 +88,21 @@ Clicking the profile button in the nav bar brings you to the main page of regist
 In the practice section, you will enter the practice module upon clicking on a subject name, bringing you to the next problem not yet solved in that respective area or the congratulations page if you've completed all the problems. By clicking on a topic in the review section, you will be brought to a page with all the problems you've solved in this subject.
 
 <img width="100%" src="./tutorial/profile1.png">
+
+## Practice Page
+Here, you will be able to view the original problems we've composed, with fully-embedded LaTeX through MathJax. Upon submitting an answer, you will receive feedback on whether your answer was correct or incorrect. If correct, the next button will appear, allowing you to move on to the next problem or the congratulations page if you finished the last problem.
+
+<img width="100%" src="./tutorial/practice.png">
+
+Incorrect:
+
+<img width="100%" src="./tutorial/practice1.png">
+
+Correct:
+
+<img width="100%" src="./tutorial/practice2.png">
+
+
+
+
+
