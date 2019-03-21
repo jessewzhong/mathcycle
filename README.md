@@ -62,6 +62,8 @@ Next, there are three main parallax sections:
 * The third contains a list of many popular contests throughout the current contest year, with their colors corresponding to whether they are completed, currently happening, or in the future.
 <img width="100%" src="./tutorial/home5.png">
 
-      
+### Resources Page
+The resources page contains an array of varioius online resources with accompanying links, as well as two handouts/PDFs of original content that I authored along with other math team members in high school.
+<img width="100%" src="./tutorial/resources.png">
                             
 
