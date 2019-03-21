@@ -44,4 +44,4 @@ Jesse Zhong
 
 ## Tutorial
 * coming soon!
-<img style="width: 50%" src="./pictures/geo1.png">
+<img style="max-width: 50%" src="./pictures/geo1.png">
