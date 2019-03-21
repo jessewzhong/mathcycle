@@ -89,7 +89,7 @@ In the practice section, you will enter the practice module upon clicking on a s
 
 <img width="100%" src="./tutorial/profile1.png">
 
-## Practice Page
+### Practice Page
 Here, you will be able to view the original problems we've composed, with fully-embedded LaTeX through MathJax. Upon submitting an answer, you will receive feedback on whether your answer was correct or incorrect. If correct, the next button will appear, allowing you to move on to the next problem or the congratulations page if you finished the last problem.
 
 <img width="100%" src="./tutorial/practice.png">
@@ -106,8 +106,13 @@ Congratulations:
 
 <img width="100%" src="./tutorial/practice3.png">
 
-## Review Page
+### Review Page
 All the problems in the selected subject area that you've completed will appear here in sequential order, and upon clicking on the answer buttons, the answer to the corresponding question will appear/disappear. 
 
 <img width="100%" src="./tutorial/review.png">
 <img width="100%" src="./tutorial/review1.png">
+
+### Logout Steps
+Logging out is as simple as it can be! Simply click the logout button at the right of the nav bar, and the logout prompt will fade in to whatever page you are currently on. 
+
+<ing width="100%" src="./tutorial/logout.png">
