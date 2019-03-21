@@ -47,5 +47,9 @@ Welcome to the tutorial! We will walk through the major features of the website 
 
 ### Home Page
 <img width="100%" src="./tutorial/home.png">
+
+
+
+
 At the top, there is a fading list of various definitions of cycles throughout mathematics
 
