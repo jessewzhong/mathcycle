@@ -7,7 +7,7 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 
 **Currently Working On:** bugfixing, improving UI, tutorial
 
-## Updates as of 3/19/19
+## Updates as of 3/21/19
 * Profile displays total score as well as subject scores
 * Reformatted practice page for aesthetics
 * Congratulations page is live for section completion
@@ -16,6 +16,7 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 * Font for math equations normalized
 * Review section implemented!
 * Answers are now hidden on review load
+* **TUTORIAL IS NOW LIVE, SEE BELOW**
 
 ## Bugfixes as of 3/4/19
 * Correct/incorrect message not resetting
@@ -52,12 +53,15 @@ At the top, there is a fading list of various definitions of cycles throughout m
 
 Next, there are three main parallax sections:
 * The first, titled **Math Evolved**, contains three sections with large titles that make their respective descriptions appear to the right upon clicking.
+
 <img width="100%" src="./tutorial/home1.png"><img width="100%" src="./tutorial/home2.png">
 
 * The second, titled **The Core**, describes the four main topic areas of mathematics. When each down arrow is clicked, the description reveals itself in a downwards motion.
+
 <img width="100%" src="./tutorial/home3.png"><img width="100%" src="./tutorial/home4.png">
 
 * The third contains a list of many popular **contests** throughout the current contest year, with their colors corresponding to whether they are completed, currently happening, or in the future.
+
 <img width="100%" src="./tutorial/home5.png">
 
 ### Resources Page
