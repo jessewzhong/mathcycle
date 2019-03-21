@@ -54,7 +54,7 @@ Next, there are three main parallax sections:
 * The first, titled Math Evolved, contains three sections with large titles that make their respective descriptions appear to the right upon clicking.
 * The second, titled The Core, describes the four main topic areas of mathematics. When each down arrow is clicked, the description reveals itself in a downwards motion.
 * The third contains a list of many popular contests throughout the current contest year, with their colors corresponding to whether they are completed, currently happening, or in the future.
-<div style="display: flex; align-items: flex-start">
+<div style="display: flex; align-items: center">
       <img width="50%" style="object-fit: contain" src="./tutorial/home1.png"><img width="50%" style="object-fit: contain" src="./tutorial/home2.png">
 </div>
 <img width="50%" src="./tutorial/home1.png">
