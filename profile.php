@@ -58,7 +58,7 @@ if (isset($_SESSION['userID']) == false) {
             </div>
             <div class="medium">Practice</div>
             <hr>
-            <div class="contests" style="display: table;">
+            <div class="contests" id="expand" style="display: table;">
                 <div> 
                     <form action="problemqueue.php" method="post">
                         <button type="submit" name="alg-submit" class="regular subject">  
@@ -176,5 +176,6 @@ if (isset($_SESSION['userID']) == false) {
         <script src="scripts/maintainwidth.js"></script>
         <script src="scripts/loginstuff.js"></script>
         <script src="scripts/logoutstuff.js"></script>
+        <script src="scripts/expand.js"></script>
     </body>
 </html>
