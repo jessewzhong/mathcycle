@@ -58,69 +58,71 @@ if (isset($_SESSION['userID']) == false) {
             </div>
             <div class="medium">Practice</div>
             <hr>
-            <div id="int" style="position: relative">
-            <div class="contests" id="expand" style="display: table; position: absolute">
-                <div> 
-                    <form action="problemqueue.php" method="post">
-                        <button type="submit" name="alg-submit" class="regular subject">  
-                            <b>Algebra</b>
-                        </button>
-                    </form>
-                </div>  
-                <div>
-                    <form action="problemqueue.php" method="post">
-                        <button type="submit" name="geo-submit" class="regular subject">  
-                            <b>Geometry</b>
-                        </button>
-                    </form>
-                </div>  
-                <div>
-                    <form action="problemqueue.php" method="post">
-                        <button type="submit" name="combo-submit" class="regular subject">  
-                            <b>Combinatorics</b>
-                        </button>
-                    </form>
-                </div>  
-                <div>
-                    <form action="problemqueue.php" method="post">
-                        <button type="submit" name="NT-submit" class="regular subject">  
-                            <b>Number Theory</b>
-                        </button>
-                    </form>
-                </div>  
-            </div>
+            <div id="pseudo" style="position: relative">
+                <div class="contests" id="expand" style="display: table; position: absolute">
+                    <div> 
+                        <form action="problemqueue.php" method="post">
+                            <button type="submit" name="alg-submit" class="regular subject">  
+                                <b>Algebra</b>
+                            </button>
+                        </form>
+                    </div>  
+                    <div>
+                        <form action="problemqueue.php" method="post">
+                            <button type="submit" name="geo-submit" class="regular subject">  
+                                <b>Geometry</b>
+                            </button>
+                        </form>
+                    </div>  
+                    <div>
+                        <form action="problemqueue.php" method="post">
+                            <button type="submit" name="combo-submit" class="regular subject">  
+                                <b>Combinatorics</b>
+                            </button>
+                        </form>
+                    </div>  
+                    <div>
+                        <form action="problemqueue.php" method="post">
+                            <button type="submit" name="NT-submit" class="regular subject">  
+                                <b>Number Theory</b>
+                            </button>
+                        </form>
+                    </div>  
+                </div>
             </div>
             <div class="medium">Review</div>
             <hr>
-            <div class="contests" style="display: table">
-                <div> 
-                    <form action="reviewqueue.php" method="post">
-                        <button type="submit" name="alg-submit" class="regular subject">  
-                            <b>Algebra</b>
-                        </button>
-                    </form>
-                </div>  
-                <div>
-                    <form action="reviewqueue.php" method="post">
-                        <button type="submit" name="geo-submit" class="regular subject">  
-                            <b>Geometry</b>
-                        </button>
-                    </form>
-                </div>  
-                <div>
-                    <form action="reviewqueue.php" method="post">
-                        <button type="submit" name="combo-submit" class="regular subject">  
-                            <b>Combinatorics</b>
-                        </button>
-                    </form>
-                </div>  
-                <div>
-                    <form action="reviewqueue.php" method="post">
-                        <button type="submit" name="NT-submit" class="regular subject">  
-                            <b>Number Theory</b>
-                        </button>
-                    </form>
-                </div>  
+            <div id="pseudo1" style="position: relative">
+                <div class="contests" id="expand1" style="display: table">
+                    <div> 
+                        <form action="reviewqueue.php" method="post">
+                            <button type="submit" name="alg-submit" class="regular subject">  
+                                <b>Algebra</b>
+                            </button>
+                        </form>
+                    </div>  
+                    <div>
+                        <form action="reviewqueue.php" method="post">
+                            <button type="submit" name="geo-submit" class="regular subject">  
+                                <b>Geometry</b>
+                            </button>
+                        </form>
+                    </div>  
+                    <div>
+                        <form action="reviewqueue.php" method="post">
+                            <button type="submit" name="combo-submit" class="regular subject">  
+                                <b>Combinatorics</b>
+                            </button>
+                        </form>
+                    </div>  
+                    <div>
+                        <form action="reviewqueue.php" method="post">
+                            <button type="submit" name="NT-submit" class="regular subject">  
+                                <b>Number Theory</b>
+                            </button>
+                        </form>
+                    </div>  
+                </div>
             </div>
         </div>
         <div class="header" style="background-color: black; display: flex; align-items: baseline; justify-content: space-between">
