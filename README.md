@@ -32,6 +32,7 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 * User status not updated unless **next** is pressed after submitting a correct answer
 * Currently unable to access previously solved problems
 * Spam click of Math Evolved section not scripted
+* Fill in filler text of Math Evolved
 
 ## Problem Pool
 * Targetting around 50 problems per subject in ascending difficulty
