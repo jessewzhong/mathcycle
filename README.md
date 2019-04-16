@@ -7,7 +7,7 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 
 **Currently Working On:** bugfixing, improving UI, tutorial
 
-## Updates as of 3/24/19
+## Updates as of 4/15/19
 * Profile displays total score as well as subject scores
 * Reformatted practice page for aesthetics
 * Congratulations page is live for section completion
@@ -18,7 +18,7 @@ This project is currently in progress. Please see https://mathcycle.co to see up
 * Answers are now hidden on review load
 * **TUTORIAL IS NOW LIVE, SEE BELOW**
 
-## Bugfixes as of 3/24/19
+## Bugfixes as of 4/15/19
 * Correct/incorrect message not resetting
 * Scrollbar images (+ all images) highlight upon spam-clicking
 * User practice status not updating
