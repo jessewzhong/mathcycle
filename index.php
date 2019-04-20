@@ -374,20 +374,20 @@ session_start();
                 <p class="regular faded"> 
                     <b>AMC 10/12:</b> Feb 7, 2019 (A), Feb 13, 2019 (B)
                 </p>
-                <p class="regular" style="color: red"> 
+                <p class="regular faded"> 
                     <b>AIME:</b> Mar 13, 2019 (I), Mar 21, 2019 (II)
                 </p>
-                <p class="regular"> 
+                <p class="regular" style="color: red; text-decoration: underline; text-decoration-color: red"> 
                     <b>USA(J)MO:</b> Apr 17-19, 2019 
                 </p>
             </div>
             <div class="medium"><i>MathCounts</i></div>
             <hr>
             <div class="contests">
-                <p class="regular" style="color: red; text-decoration: underline; text-decoration-color: red"> 
+                <p class="regular faded"> 
                     <b>Chapter:</b> Feb 1-28, 2019
                 </p>
-                <p class="regular" style="color: red"> 
+                <p class="regular faded"> 
                     <b>State:</b> Mar 1 - Apr 1, 2019
                 </p>
                 <p class="regular"> 
@@ -415,10 +415,10 @@ session_start();
                 <p class="regular faded"> 
                     <b>HMMT February (MIT):</b> Feb 16, 2019
                 </p>
-                <p class="regular" style="color: red"> 
+                <p class="regular faded"> 
                     <b>Stanford (SMT):</b> Mar 2, 2019
                 </p>
-                <p class="regular" style="color: red"> 
+                <p class="regular faded"> 
                     <b>Berkeley (BMT):</b> Mar 2019
                 </p>
             </div>
@@ -463,7 +463,7 @@ session_start();
                 <p class="regular faded"> 
                     <b>Round IV:</b> Jan 28 - Feb 3, 2019
                 </p>
-                <p class="regular" style="color: red"> 
+                <p class="regular faded"> 
                     <b>Round V:</b> Feb 25 - Mar 3, 2019
                 </p>
             </div>
@@ -479,13 +479,13 @@ session_start();
                 <p class="regular faded">  
                     <b>Canada Open Mathematics Challenge (COMC):</b> Nov 8, 2018
                 </p>
-                <p class="regular"> 
+                <p class="regular faded"> 
                     <b>Math Kangaroo:</b> Mar 21, 2019
                 </p>
-                <p class="regular"> 
+                <p class="regular faded"> 
                     <b>OMO (Spring):</b> Mar 22 - Apr 9, 2019
                 </p>
-                <p class="regular"> 
+                <p class="regular faded"> 
                     <b>Purple Comet:</b> Apr 2-11, 2019
                 </p>
                 <p class="regular"> 
