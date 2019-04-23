@@ -5,7 +5,7 @@ Built with HTML, CSS, JavaScript, PHP, and SQL; run locally with XAMPP.
 
 This project is currently in progress. Please see https://mathcycle.co to see up-to-date site.
 
-**Currently Working On:** bugfixing, improving UI
+**Currently Working On:** bugfixing, improving UI, commenting code, improving SQL algorithms
 
 ## Updates as of 4/15/19
 * Profile displays total score as well as subject scores
